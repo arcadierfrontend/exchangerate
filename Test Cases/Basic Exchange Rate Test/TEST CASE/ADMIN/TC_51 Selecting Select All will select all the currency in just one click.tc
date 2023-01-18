@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_51 Selecting Select All will select all the currency in just one click</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ecf8ffd0-4469-4577-836b-49bc147f92e2</testCaseGuid>
+</TestCaseEntity>

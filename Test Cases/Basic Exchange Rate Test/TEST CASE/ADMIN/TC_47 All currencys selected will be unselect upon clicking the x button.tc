@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_47 All currencys selected will be unselect upon clicking the x button</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0c6188c9-c797-4a49-8b24-b17c6fad5aa2</testCaseGuid>
+</TestCaseEntity>

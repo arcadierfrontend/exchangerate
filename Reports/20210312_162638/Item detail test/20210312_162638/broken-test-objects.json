@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Item Details Objects/Page_diagnostics/div.item-price-text",
+      "brokenLocator": "div.item-price-text",
+      "brokenLocatorMethod": "CSS",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027CONTACT SELLER\u0027])[2]/following::div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210312_162638/Item detail test/20210312_162638/Object Repository/Item Details Objects/Page_diagnostics/div.item-price-text_XPATH.png"
+    }
+  ]
+}

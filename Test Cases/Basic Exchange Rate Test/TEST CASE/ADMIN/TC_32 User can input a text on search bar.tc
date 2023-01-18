@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_32 User can input a text on search bar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3f3bbf38-27c3-4315-b97d-5a537566a49d</testCaseGuid>
+</TestCaseEntity>

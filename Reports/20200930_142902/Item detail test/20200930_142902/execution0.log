@@ -1,0 +1,2963 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-09-30T14:29:13</date>
+  <millis>1601450953899</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Item detail test</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Item detail test</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Item detail test</property>
+  <property name="stopImmediately">false</property>
+</record>
+<record>
+  <date>2020-09-30T14:29:13</date>
+  <millis>1601450953982</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = martinrahardja - 192.168.100.3</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">martinrahardja - 192.168.100.3</property>
+</record>
+<record>
+  <date>2020-09-30T14:29:13</date>
+  <millis>1601450953984</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Mac OS X 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Mac OS X 64bit</property>
+</record>
+<record>
+  <date>2020-09-30T14:29:13</date>
+  <millis>1601450953996</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.100.3</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">192.168.100.3</property>
+</record>
+<record>
+  <date>2020-09-30T14:29:14</date>
+  <millis>1601450954008</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.6.6.205</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">7.6.6.205</property>
+</record>
+<record>
+  <date>2020-09-30T14:29:14</date>
+  <millis>1601450954637</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_001</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_001</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_001</property>
+  <property name="source">\Users\martinrahardja\Documents\Github\find-item-detail-test\Test Cases\Custom Item Details\TEST CASE\TC_DETAILS_UI_001.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-09-30T14:29:15</date>
+  <millis>1601450955470</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase(findTestCase(&amp;quot;Custom Item Details/UTILITIES/OPEN_BROWSER&amp;quot;), [:], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-09-30T14:29:15</date>
+  <millis>1601450955866</millis>
+  <sequence>10</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER</property>
+  <property name="source">\Users\martinrahardja\Documents\Github\find-item-detail-test\Test Cases\Custom Item Details\UTILITIES\OPEN_BROWSER.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-09-30T14:29:16</date>
+  <millis>1601450956208</millis>
+  <sequence>12</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(&amp;quot;https://diagnostics.staging.arcadier.io/user/item/detail/covid19agencyfind/ff4ed938-0c51-43e1-a409-95aa6520ab89&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-09-30T14:29:16</date>
+  <millis>1601450956655</millis>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-30T14:29:16</date>
+  <millis>1601450956725</millis>
+  <sequence>16</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-30T14:29:21</date>
+  <millis>1601450961943</millis>
+  <sequence>18</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = bc9919ae2ac3970c6be41224d5520970</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="sessionId">bc9919ae2ac3970c6be41224d5520970</property>
+</record>
+<record>
+  <date>2020-09-30T14:29:21</date>
+  <millis>1601450961973</millis>
+  <sequence>19</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 85.0.4183.121</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="browser">Chrome 85.0.4183.121</property>
+</record>
+<record>
+  <date>2020-09-30T14:29:21</date>
+  <millis>1601450961974</millis>
+  <sequence>20</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Mac OS X</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="platform">Mac OS X</property>
+</record>
+<record>
+  <date>2020-09-30T14:29:21</date>
+  <millis>1601450961984</millis>
+  <sequence>21</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2020-09-30T14:29:21</date>
+  <millis>1601450961986</millis>
+  <sequence>22</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&amp;quot;&amp;quot;, isApplyToDesiredCapabilities=true }</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }</property>
+</record>
+<record>
+  <date>2020-09-30T14:29:25</date>
+  <millis>1601450965416</millis>
+  <sequence>24</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;https://diagnostics.staging.arcadier.io/user/item/detail/covid19agencyfind/ff4ed938-0c51-43e1-a409-95aa6520ab89&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-30T14:29:25</date>
+  <millis>1601450965417</millis>
+  <sequence>25</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(&amp;quot;https://diagnostics.staging.arcadier.io/user/item/detail/covid19agencyfind/ff4ed938-0c51-43e1-a409-95aa6520ab89&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-30T14:29:25</date>
+  <millis>1601450965417</millis>
+  <sequence>26</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-30T14:29:25</date>
+  <millis>1601450965419</millis>
+  <sequence>27</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-30T14:29:25</date>
+  <millis>1601450965434</millis>
+  <sequence>28</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Call Test Case &amp;apos;Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-30T14:29:25</date>
+  <millis>1601450965434</millis>
+  <sequence>29</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : callTestCase(findTestCase(&amp;quot;Custom Item Details/UTILITIES/OPEN_BROWSER&amp;quot;), [:], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-30T14:29:25</date>
+  <millis>1601450965437</millis>
+  <sequence>30</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementVisible(findTestObject(&amp;quot;Item Details Objects/Page_diagnostics/div.item-details&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-09-30T14:29:25</date>
+  <millis>1601450965878</millis>
+  <sequence>34</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-30T14:29:47</date>
+  <millis>1601450987526</millis>
+  <sequence>115</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] Failed to find element with id &amp;apos;Object Repository/Item Details Objects/Page_diagnostics/div.item-details&amp;apos;. Try using Self-healing.</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-30T14:29:47</date>
+  <millis>1601450987606</millis>
+  <sequence>119</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.121)
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;Martins-MacBook-Pro-2.local&amp;apos;, ip: &amp;apos;fe80:0:0:0:8f7:d6f2:ca3a:e857%en0&amp;apos;, os.name: &amp;apos;Mac OS X&amp;apos;, os.arch: &amp;apos;x86_64&amp;apos;, os.version: &amp;apos;10.15.7&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/25/w809fgvj0yj...}, goog:chromeOptions: {debuggerAddress: localhost:53024}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bc9919ae2ac3970c6be41224d5520970
+*** Element info: {Using=xpath, value=(.//*[normalize-space(text()) and normalize-space(.)=&amp;apos;SIGN IN&amp;apos;])[2]/following::div[6]}</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.openqa.selenium.NoSuchWindowException</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.121)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;Martins-MacBook-Pro-2.local&apos;, ip: &apos;fe80:0:0:0:8f7:d6f2:ca3a:e857%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/25/w809fgvj0yj...}, goog:chromeOptions: {debuggerAddress: localhost:53024}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bc9919ae2ac3970c6be41224d5520970
+*** Element info: {Using=xpath, value=(.//*[normalize-space(text()) and normalize-space(.)=&apos;SIGN IN&apos;])[2]/following::div[6]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1013)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:908)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:799)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:717)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1363)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword$findWebElement.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword$_waitForElementVisible_closure1.doCall(WaitForElementVisibleKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword$_waitForElementVisible_closure1.doCall(WaitForElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.waitForElementVisible(WaitForElementVisibleKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.execute(WaitForElementVisibleKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(WebUiBuiltInKeywords.groovy:434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementVisible$0.call(Unknown Source)
+	at TC_DETAILS_UI_001.run(TC_DETAILS_UI_001:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601450942671.run(TempTestSuite1601450942671.groovy:39)
+</property>
+  <property name="failed.exception.message">no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.121)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;Martins-MacBook-Pro-2.local&apos;, ip: &apos;fe80:0:0:0:8f7:d6f2:ca3a:e857%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/25/w809fgvj0yj...}, goog:chromeOptions: {debuggerAddress: localhost:53024}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bc9919ae2ac3970c6be41224d5520970
+*** Element info: {Using=xpath, value=(.//*[normalize-space(text()) and normalize-space(.)=&apos;SIGN IN&apos;])[2]/following::div[6]}</property>
+</record>
+<record>
+  <date>2020-09-30T14:29:47</date>
+  <millis>1601450987633</millis>
+  <sequence>123</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[SELF-HEALING] no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.121)
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;Martins-MacBook-Pro-2.local&amp;apos;, ip: &amp;apos;fe80:0:0:0:8f7:d6f2:ca3a:e857%en0&amp;apos;, os.name: &amp;apos;Mac OS X&amp;apos;, os.arch: &amp;apos;x86_64&amp;apos;, os.version: &amp;apos;10.15.7&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/25/w809fgvj0yj...}, goog:chromeOptions: {debuggerAddress: localhost:53024}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bc9919ae2ac3970c6be41224d5520970
+*** Element info: {Using=xpath, value=//*[(text() = &amp;apos;
+    
+                    
+                    COVID-19 DIAGNOSTICS  &amp;gt; SELF-COLLECTION KIT
+                
+        
+        
+            
+                
+                    
+                            
+                    
+                    
+                        
+                                    
+                                        
+                                    
+                        
+                           
+                    
+                
+            
+                        01Seller
+                        CONTACT SELLER
+                    
+            
+                
+                
+                    
+                    
+                    COVID19(AgencyFIND)COVID001
+                        01Seller
+                        CONTACT SELLER
+                    Ex-works: USD $1,500.20 (Indicative)Procure from other AgenciesProcure through FindLog in required to view prices or add to cart
+                    
+
+                    
+                    
+                        
+                            
+                            00
+                            (0.0% Positive Feedback)
+                        
+                    
+
+
+                        
+                        
+                            
+                            
+                        
+                    
+                        
+                            Description
+                            
+                        
+                        
+                    
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu... a. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                          Show More...
+                        
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+
+                        Technical Specifications
+                                        Product Bundled:
+                                                        []
+
+                                    
+                                        Shelf life :
+                                                        Shelf life
+
+                                    
+                                        Independent evaluation :
+                                                        Independent evaluation
+
+                                    
+                                        Packaging &amp;amp; labeling :
+                                                        Packaging &amp;amp; labeling
+
+                                    
+                                        Storage condition :
+                                                        Storage condition
+
+                                    
+                                        HS code :
+                                                        1
+
+                                    
+                                        Transportation :
+                                                        Transportation
+
+                                    
+                                        Number of units/ Unit of measurement :
+                                                        Number of units/ Unit of measurement
+
+                                    
+                                        Volume :
+                                                        Volume
+
+                                    
+                                        Name of manufacturer :
+                                                        Name of manufacturer
+
+                                    
+                                        Contact person:
+                                                        Adriana Ocampo
+
+                                    
+                                        Email address:
+                                                        arcadierteam1@gmail.com
+
+                                    
+                                        Country of manufacturer:
+                                                        Country of manufacturer
+
+                                    
+                                        Regulatory approval :
+                                                        Australia TGA,
+                                                        Singapore HSA
+
+                                    
+                                        Country registration :
+                                                        Country registration
+
+                                    
+                                        Procurement options:
+                                                        Procure from other agencies,
+                                                        Procure through FIND
+
+                                    
+                Technical Specifications
+                Independent evaluation :Independent evaluation 
+            
+                Product Attributes
+                Shelf life :Shelf life Packaging &amp;amp; labeling :Packaging &amp;amp; labeling Storage condition :Storage condition HS code :1 Transportation :Transportation 
+                                        WEIGHT (KG):
+                                                        0.25
+
+                                    Volume :Volume 
+            
+                Manufacture Information
+                Name of manufacturer :Name of manufacturer Contact person:Adriana Ocampo Email address:arcadierteam1@gmail.com Country of manufacturer:Country of manufacturer 
+            
+                Regulatory Approval
+                Regulatory approval :Australia TGA,Singapore HSA Country registration :Country registration 
+            
+                    
+                    ADD TO CART
+                
+
+
+
+
+    
+    
+
+
+
+    
+
+
+
+    
+        Reviews
+        
+            
+                
+                00
+                (0.0% Positive Feedback )
+            
+            
+                 
+            
+            
+        
+        
+            Rating Summary
+            
+                
+                    
+                        
+                            
+                        
+                        Excellent! 
+                        0
+                    
+                    
+                        
+                            
+                        
+                        Great! 
+                        0
+                    
+                    
+                        
+                            
+                        
+                        Good.! 
+                        0
+                    
+                    
+                        
+                            
+                        
+                        Okay.! 
+                        0
+                    
+                    
+                        
+                            
+                        
+                        Unsatisfied! 
+                        0
+                    
+                
+            
+        
+        
+            
+           
+            
+        
+    
+
+
+
+    
+        
+            
+        
+        
+            
+                
+                
+                    
+                    
+                
+                
+            
+            
+                
+                REPLY
+            
+        
+    
+    
+
+
+
+    
+        Reply from :
+        
+            
+        
+        
+            
+                Adriana Ocampo Distribute
+                
+            
+            
+        
+    
+
+            
+            
+            
+            
+        
+    
+&amp;apos; or . = &amp;apos;
+    
+                    
+                    COVID-19 DIAGNOSTICS  &amp;gt; SELF-COLLECTION KIT
+                
+        
+        
+            
+                
+                    
+                            
+                    
+                    
+                        
+                                    
+                                        
+                                    
+                        
+                           
+                    
+                
+            
+                        01Seller
+                        CONTACT SELLER
+                    
+            
+                
+                
+                    
+                    
+                    COVID19(AgencyFIND)COVID001
+                        01Seller
+                        CONTACT SELLER
+                    Ex-works: USD $1,500.20 (Indicative)Procure from other AgenciesProcure through FindLog in required to view prices or add to cart
+                    
+
+                    
+                    
+                        
+                            
+                            00
+                            (0.0% Positive Feedback)
+                        
+                    
+
+
+                        
+                        
+                            
+                            
+                        
+                    
+                        
+                            Description
+                            
+                        
+                        
+                    
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu... a. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                          Show More...
+                        
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+
+                        Technical Specifications
+                                        Product Bundled:
+                                                        []
+
+                                    
+                                        Shelf life :
+                                                        Shelf life
+
+                                    
+                                        Independent evaluation :
+                                                        Independent evaluation
+
+                                    
+                                        Packaging &amp;amp; labeling :
+                                                        Packaging &amp;amp; labeling
+
+                                    
+                                        Storage condition :
+                                                        Storage condition
+
+                                    
+                                        HS code :
+                                                        1
+
+                                    
+                                        Transportation :
+                                                        Transportation
+
+                                    
+                                        Number of units/ Unit of measurement :
+                                                        Number of units/ Unit of measurement
+
+                                    
+                                        Volume :
+                                                        Volume
+
+                                    
+                                        Name of manufacturer :
+                                                        Name of manufacturer
+
+                                    
+                                        Contact person:
+                                                        Adriana Ocampo
+
+                                    
+                                        Email address:
+                                                        arcadierteam1@gmail.com
+
+                                    
+                                        Country of manufacturer:
+                                                        Country of manufacturer
+
+                                    
+                                        Regulatory approval :
+                                                        Australia TGA,
+                                                        Singapore HSA
+
+                                    
+                                        Country registration :
+                                                        Country registration
+
+                                    
+                                        Procurement options:
+                                                        Procure from other agencies,
+                                                        Procure through FIND
+
+                                    
+                Technical Specifications
+                Independent evaluation :Independent evaluation 
+            
+                Product Attributes
+                Shelf life :Shelf life Packaging &amp;amp; labeling :Packaging &amp;amp; labeling Storage condition :Storage condition HS code :1 Transportation :Transportation 
+                                        WEIGHT (KG):
+                                                        0.25
+
+                                    Volume :Volume 
+            
+                Manufacture Information
+                Name of manufacturer :Name of manufacturer Contact person:Adriana Ocampo Email address:arcadierteam1@gmail.com Country of manufacturer:Country of manufacturer 
+            
+                Regulatory Approval
+                Regulatory approval :Australia TGA,Singapore HSA Country registration :Country registration 
+            
+                    
+                    ADD TO CART
+                
+
+
+
+
+    
+    
+
+
+
+    
+
+
+
+    
+        Reviews
+        
+            
+                
+                00
+                (0.0% Positive Feedback )
+            
+            
+                 
+            
+            
+        
+        
+            Rating Summary
+            
+                
+                    
+                        
+                            
+                        
+                        Excellent! 
+                        0
+                    
+                    
+                        
+                            
+                        
+                        Great! 
+                        0
+                    
+                    
+                        
+                            
+                        
+                        Good.! 
+                        0
+                    
+                    
+                        
+                            
+                        
+                        Okay.! 
+                        0
+                    
+                    
+                        
+                            
+                        
+                        Unsatisfied! 
+                        0
+                    
+                
+            
+        
+        
+            
+           
+            
+        
+    
+
+
+
+    
+        
+            
+        
+        
+            
+                
+                
+                    
+                    
+                
+                
+            
+            
+                
+                REPLY
+            
+        
+    
+    
+
+
+
+    
+        Reply from :
+        
+            
+        
+        
+            
+                Adriana Ocampo Distribute
+                
+            
+            
+        
+    
+
+            
+            
+            
+            
+        
+    
+&amp;apos;)]}</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.openqa.selenium.NoSuchWindowException</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.121)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;Martins-MacBook-Pro-2.local&apos;, ip: &apos;fe80:0:0:0:8f7:d6f2:ca3a:e857%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/25/w809fgvj0yj...}, goog:chromeOptions: {debuggerAddress: localhost:53024}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bc9919ae2ac3970c6be41224d5520970
+*** Element info: {Using=xpath, value=//*[(text() = &apos;
+    
+                    
+                    COVID-19 DIAGNOSTICS  &gt; SELF-COLLECTION KIT
+                
+        
+        
+            
+                
+                    
+                            
+                    
+                    
+                        
+                                    
+                                        
+                                    
+                        
+                           
+                    
+                
+            
+                        01Seller
+                        CONTACT SELLER
+                    
+            
+                
+                
+                    
+                    
+                    COVID19(AgencyFIND)COVID001
+                        01Seller
+                        CONTACT SELLER
+                    Ex-works: USD $1,500.20 (Indicative)Procure from other AgenciesProcure through FindLog in required to view prices or add to cart
+                    
+
+                    
+                    
+                        
+                            
+                            00
+                            (0.0% Positive Feedback)
+                        
+                    
+
+
+                        
+                        
+                            
+                            
+                        
+                    
+                        
+                            Description
+                            
+                        
+                        
+                    
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu... a. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                          Show More...
+                        
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+
+                        Technical Specifications
+                                        Product Bundled:
+                                                        []
+
+                                    
+                                        Shelf life :
+                                                        Shelf life
+
+                                    
+                                        Independent evaluation :
+                                                        Independent evaluation
+
+                                    
+                                        Packaging &amp; labeling :
+                                                        Packaging &amp; labeling
+
+                                    
+                                        Storage condition :
+                                                        Storage condition
+
+                                    
+                                        HS code :
+                                                        1
+
+                                    
+                                        Transportation :
+                                                        Transportation
+
+                                    
+                                        Number of units/ Unit of measurement :
+                                                        Number of units/ Unit of measurement
+
+                                    
+                                        Volume :
+                                                        Volume
+
+                                    
+                                        Name of manufacturer :
+                                                        Name of manufacturer
+
+                                    
+                                        Contact person:
+                                                        Adriana Ocampo
+
+                                    
+                                        Email address:
+                                                        arcadierteam1@gmail.com
+
+                                    
+                                        Country of manufacturer:
+                                                        Country of manufacturer
+
+                                    
+                                        Regulatory approval :
+                                                        Australia TGA,
+                                                        Singapore HSA
+
+                                    
+                                        Country registration :
+                                                        Country registration
+
+                                    
+                                        Procurement options:
+                                                        Procure from other agencies,
+                                                        Procure through FIND
+
+                                    
+                Technical Specifications
+                Independent evaluation :Independent evaluation 
+            
+                Product Attributes
+                Shelf life :Shelf life Packaging &amp; labeling :Packaging &amp; labeling Storage condition :Storage condition HS code :1 Transportation :Transportation 
+                                        WEIGHT (KG):
+                                                        0.25
+
+                                    Volume :Volume 
+            
+                Manufacture Information
+                Name of manufacturer :Name of manufacturer Contact person:Adriana Ocampo Email address:arcadierteam1@gmail.com Country of manufacturer:Country of manufacturer 
+            
+                Regulatory Approval
+                Regulatory approval :Australia TGA,Singapore HSA Country registration :Country registration 
+            
+                    
+                    ADD TO CART
+                
+
+
+
+
+    
+    
+
+
+
+    
+
+
+
+    
+        Reviews
+        
+            
+                
+                00
+                (0.0% Positive Feedback )
+            
+            
+                 
+            
+            
+        
+        
+            Rating Summary
+            
+                
+                    
+                        
+                            
+                        
+                        Excellent! 
+                        0
+                    
+                    
+                        
+                            
+                        
+                        Great! 
+                        0
+                    
+                    
+                        
+                            
+                        
+                        Good.! 
+                        0
+                    
+                    
+                        
+                            
+                        
+                        Okay.! 
+                        0
+                    
+                    
+                        
+                            
+                        
+                        Unsatisfied! 
+                        0
+                    
+                
+            
+        
+        
+            
+           
+            
+        
+    
+
+
+
+    
+        
+            
+        
+        
+            
+                
+                
+                    
+                    
+                
+                
+            
+            
+                
+                REPLY
+            
+        
+    
+    
+
+
+
+    
+        Reply from :
+        
+            
+        
+        
+            
+                Adriana Ocampo Distribute
+                
+            
+            
+        
+    
+
+            
+            
+            
+            
+        
+    
+&apos; or . = &apos;
+    
+                    
+                    COVID-19 DIAGNOSTICS  &gt; SELF-COLLECTION KIT
+                
+        
+        
+            
+                
+                    
+                            
+                    
+                    
+                        
+                                    
+                                        
+                                    
+                        
+                           
+                    
+                
+            
+                        01Seller
+                        CONTACT SELLER
+                    
+            
+                
+                
+                    
+                    
+                    COVID19(AgencyFIND)COVID001
+                        01Seller
+                        CONTACT SELLER
+                    Ex-works: USD $1,500.20 (Indicative)Procure from other AgenciesProcure through FindLog in required to view prices or add to cart
+                    
+
+                    
+                    
+                        
+                            
+                            00
+                            (0.0% Positive Feedback)
+                        
+                    
+
+
+                        
+                        
+                            
+                            
+                        
+                    
+                        
+                            Description
+                            
+                        
+                        
+                    
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu... a. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                          Show More...
+                        
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+
+                        Technical Specifications
+                                        Product Bundled:
+                                                        []
+
+                                    
+                                        Shelf life :
+                                                        Shelf life
+
+                                    
+                                        Independent evaluation :
+                                                        Independent evaluation
+
+                                    
+                                        Packaging &amp; labeling :
+                                                        Packaging &amp; labeling
+
+                                    
+                                        Storage condition :
+                                                        Storage condition
+
+                                    
+                                        HS code :
+                                                        1
+
+                                    
+                                        Transportation :
+                                                        Transportation
+
+                                    
+                                        Number of units/ Unit of measurement :
+                                                        Number of units/ Unit of measurement
+
+                                    
+                                        Volume :
+                                                        Volume
+
+                                    
+                                        Name of manufacturer :
+                                                        Name of manufacturer
+
+                                    
+                                        Contact person:
+                                                        Adriana Ocampo
+
+                                    
+                                        Email address:
+                                                        arcadierteam1@gmail.com
+
+                                    
+                                        Country of manufacturer:
+                                                        Country of manufacturer
+
+                                    
+                                        Regulatory approval :
+                                                        Australia TGA,
+                                                        Singapore HSA
+
+                                    
+                                        Country registration :
+                                                        Country registration
+
+                                    
+                                        Procurement options:
+                                                        Procure from other agencies,
+                                                        Procure through FIND
+
+                                    
+                Technical Specifications
+                Independent evaluation :Independent evaluation 
+            
+                Product Attributes
+                Shelf life :Shelf life Packaging &amp; labeling :Packaging &amp; labeling Storage condition :Storage condition HS code :1 Transportation :Transportation 
+                                        WEIGHT (KG):
+                                                        0.25
+
+                                    Volume :Volume 
+            
+                Manufacture Information
+                Name of manufacturer :Name of manufacturer Contact person:Adriana Ocampo Email address:arcadierteam1@gmail.com Country of manufacturer:Country of manufacturer 
+            
+                Regulatory Approval
+                Regulatory approval :Australia TGA,Singapore HSA Country registration :Country registration 
+            
+                    
+                    ADD TO CART
+                
+
+
+
+
+    
+    
+
+
+
+    
+
+
+
+    
+        Reviews
+        
+            
+                
+                00
+                (0.0% Positive Feedback )
+            
+            
+                 
+            
+            
+        
+        
+            Rating Summary
+            
+                
+                    
+                        
+                            
+                        
+                        Excellent! 
+                        0
+                    
+                    
+                        
+                            
+                        
+                        Great! 
+                        0
+                    
+                    
+                        
+                            
+                        
+                        Good.! 
+                        0
+                    
+                    
+                        
+                            
+                        
+                        Okay.! 
+                        0
+                    
+                    
+                        
+                            
+                        
+                        Unsatisfied! 
+                        0
+                    
+                
+            
+        
+        
+            
+           
+            
+        
+    
+
+
+
+    
+        
+            
+        
+        
+            
+                
+                
+                    
+                    
+                
+                
+            
+            
+                
+                REPLY
+            
+        
+    
+    
+
+
+
+    
+        Reply from :
+        
+            
+        
+        
+            
+                Adriana Ocampo Distribute
+                
+            
+            
+        
+    
+
+            
+            
+            
+            
+        
+    
+&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1013)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:902)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:802)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:717)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1363)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword$findWebElement.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword$_waitForElementVisible_closure1.doCall(WaitForElementVisibleKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword$_waitForElementVisible_closure1.doCall(WaitForElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.waitForElementVisible(WaitForElementVisibleKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.execute(WaitForElementVisibleKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(WebUiBuiltInKeywords.groovy:434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementVisible$0.call(Unknown Source)
+	at TC_DETAILS_UI_001.run(TC_DETAILS_UI_001:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601450942671.run(TempTestSuite1601450942671.groovy:39)
+</property>
+  <property name="failed.exception.message">no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.121)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;Martins-MacBook-Pro-2.local&apos;, ip: &apos;fe80:0:0:0:8f7:d6f2:ca3a:e857%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/25/w809fgvj0yj...}, goog:chromeOptions: {debuggerAddress: localhost:53024}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bc9919ae2ac3970c6be41224d5520970
+*** Element info: {Using=xpath, value=//*[(text() = &apos;
+    
+                    
+                    COVID-19 DIAGNOSTICS  &gt; SELF-COLLECTION KIT
+                
+        
+        
+            
+                
+                    
+                            
+                    
+                    
+                        
+                                    
+                                        
+                                    
+                        
+                           
+                    
+                
+            
+                        01Seller
+                        CONTACT SELLER
+                    
+            
+                
+                
+                    
+                    
+                    COVID19(AgencyFIND)COVID001
+                        01Seller
+                        CONTACT SELLER
+                    Ex-works: USD $1,500.20 (Indicative)Procure from other AgenciesProcure through FindLog in required to view prices or add to cart
+                    
+
+                    
+                    
+                        
+                            
+                            00
+                            (0.0% Positive Feedback)
+                        
+                    
+
+
+                        
+                        
+                            
+                            
+                        
+                    
+                        
+                            Description
+                            
+                        
+                        
+                    
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu... a. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                          Show More...
+                        
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+
+                        Technical Specifications
+                                        Product Bundled:
+                                                        []
+
+                                    
+                                        Shelf life :
+                                                        Shelf life
+
+                                    
+                                        Independent evaluation :
+                                                        Independent evaluation
+
+                                    
+                                        Packaging &amp; labeling :
+                                                        Packaging &amp; labeling
+
+                                    
+                                        Storage condition :
+                                                        Storage condition
+
+                                    
+                                        HS code :
+                                                        1
+
+                                    
+                                        Transportation :
+                                                        Transportation
+
+                                    
+                                        Number of units/ Unit of measurement :
+                                                        Number of units/ Unit of measurement
+
+                                    
+                                        Volume :
+                                                        Volume
+
+                                    
+                                        Name of manufacturer :
+                                                        Name of manufacturer
+
+                                    
+                                        Contact person:
+                                                        Adriana Ocampo
+
+                                    
+                                        Email address:
+                                                        arcadierteam1@gmail.com
+
+                                    
+                                        Country of manufacturer:
+                                                        Country of manufacturer
+
+                                    
+                                        Regulatory approval :
+                                                        Australia TGA,
+                                                        Singapore HSA
+
+                                    
+                                        Country registration :
+                                                        Country registration
+
+                                    
+                                        Procurement options:
+                                                        Procure from other agencies,
+                                                        Procure through FIND
+
+                                    
+                Technical Specifications
+                Independent evaluation :Independent evaluation 
+            
+                Product Attributes
+                Shelf life :Shelf life Packaging &amp; labeling :Packaging &amp; labeling Storage condition :Storage condition HS code :1 Transportation :Transportation 
+                                        WEIGHT (KG):
+                                                        0.25
+
+                                    Volume :Volume 
+            
+                Manufacture Information
+                Name of manufacturer :Name of manufacturer Contact person:Adriana Ocampo Email address:arcadierteam1@gmail.com Country of manufacturer:Country of manufacturer 
+            
+                Regulatory Approval
+                Regulatory approval :Australia TGA,Singapore HSA Country registration :Country registration 
+            
+                    
+                    ADD TO CART
+                
+
+
+
+
+    
+    
+
+
+
+    
+
+
+
+    
+        Reviews
+        
+            
+                
+                00
+                (0.0% Positive Feedback )
+            
+            
+                 
+            
+            
+        
+        
+            Rating Summary
+            
+                
+                    
+                        
+                            
+                        
+                        Excellent! 
+                        0
+                    
+                    
+                        
+                            
+                        
+                        Great! 
+                        0
+                    
+                    
+                        
+                            
+                        
+                        Good.! 
+                        0
+                    
+                    
+                        
+                            
+                        
+                        Okay.! 
+                        0
+                    
+                    
+                        
+                            
+                        
+                        Unsatisfied! 
+                        0
+                    
+                
+            
+        
+        
+            
+           
+            
+        
+    
+
+
+
+    
+        
+            
+        
+        
+            
+                
+                
+                    
+                    
+                
+                
+            
+            
+                
+                REPLY
+            
+        
+    
+    
+
+
+
+    
+        Reply from :
+        
+            
+        
+        
+            
+                Adriana Ocampo Distribute
+                
+            
+            
+        
+    
+
+            
+            
+            
+            
+        
+    
+&apos; or . = &apos;
+    
+                    
+                    COVID-19 DIAGNOSTICS  &gt; SELF-COLLECTION KIT
+                
+        
+        
+            
+                
+                    
+                            
+                    
+                    
+                        
+                                    
+                                        
+                                    
+                        
+                           
+                    
+                
+            
+                        01Seller
+                        CONTACT SELLER
+                    
+            
+                
+                
+                    
+                    
+                    COVID19(AgencyFIND)COVID001
+                        01Seller
+                        CONTACT SELLER
+                    Ex-works: USD $1,500.20 (Indicative)Procure from other AgenciesProcure through FindLog in required to view prices or add to cart
+                    
+
+                    
+                    
+                        
+                            
+                            00
+                            (0.0% Positive Feedback)
+                        
+                    
+
+
+                        
+                        
+                            
+                            
+                        
+                    
+                        
+                            Description
+                            
+                        
+                        
+                    
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqu... a. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                          Show More...
+                        
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+
+                        Technical Specifications
+                                        Product Bundled:
+                                                        []
+
+                                    
+                                        Shelf life :
+                                                        Shelf life
+
+                                    
+                                        Independent evaluation :
+                                                        Independent evaluation
+
+                                    
+                                        Packaging &amp; labeling :
+                                                        Packaging &amp; labeling
+
+                                    
+                                        Storage condition :
+                                                        Storage condition
+
+                                    
+                                        HS code :
+                                                        1
+
+                                    
+                                        Transportation :
+                                                        Transportation
+
+                                    
+                                        Number of units/ Unit of measurement :
+                                                        Number of units/ Unit of measurement
+
+                                    
+                                        Volume :
+                                                        Volume
+
+                                    
+                                        Name of manufacturer :
+                                                        Name of manufacturer
+
+                                    
+                                        Contact person:
+                                                        Adriana Ocampo
+
+                                    
+                                        Email address:
+                                                        arcadierteam1@gmail.com
+
+                                    
+                                        Country of manufacturer:
+                                                        Country of manufacturer
+
+                                    
+                                        Regulatory approval :
+                                                        Australia TGA,
+                                                        Singapore HSA
+
+                                    
+                                        Country registration :
+                                                        Country registration
+
+                                    
+                                        Procurement options:
+                                                        Procure from other agencies,
+                                                        Procure through FIND
+
+                                    
+                Technical Specifications
+                Independent evaluation :Independent evaluation 
+            
+                Product Attributes
+                Shelf life :Shelf life Packaging &amp; labeling :Packaging &amp; labeling Storage condition :Storage condition HS code :1 Transportation :Transportation 
+                                        WEIGHT (KG):
+                                                        0.25
+
+                                    Volume :Volume 
+            
+                Manufacture Information
+                Name of manufacturer :Name of manufacturer Contact person:Adriana Ocampo Email address:arcadierteam1@gmail.com Country of manufacturer:Country of manufacturer 
+            
+                Regulatory Approval
+                Regulatory approval :Australia TGA,Singapore HSA Country registration :Country registration 
+            
+                    
+                    ADD TO CART
+                
+
+
+
+
+    
+    
+
+
+
+    
+
+
+
+    
+        Reviews
+        
+            
+                
+                00
+                (0.0% Positive Feedback )
+            
+            
+                 
+            
+            
+        
+        
+            Rating Summary
+            
+                
+                    
+                        
+                            
+                        
+                        Excellent! 
+                        0
+                    
+                    
+                        
+                            
+                        
+                        Great! 
+                        0
+                    
+                    
+                        
+                            
+                        
+                        Good.! 
+                        0
+                    
+                    
+                        
+                            
+                        
+                        Okay.! 
+                        0
+                    
+                    
+                        
+                            
+                        
+                        Unsatisfied! 
+                        0
+                    
+                
+            
+        
+        
+            
+           
+            
+        
+    
+
+
+
+    
+        
+            
+        
+        
+            
+                
+                
+                    
+                    
+                
+                
+            
+            
+                
+                REPLY
+            
+        
+    
+    
+
+
+
+    
+        Reply from :
+        
+            
+        
+        
+            
+                Adriana Ocampo Distribute
+                
+            
+            
+        
+    
+
+            
+            
+            
+            
+        
+    
+&apos;)]}</property>
+</record>
+<record>
+  <date>2020-09-30T14:29:47</date>
+  <millis>1601450987708</millis>
+  <sequence>125</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Cannot take screenshot</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.openqa.selenium.NoSuchWindowException</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.121)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;Martins-MacBook-Pro-2.local&apos;, ip: &apos;fe80:0:0:0:8f7:d6f2:ca3a:e857%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/25/w809fgvj0yj...}, goog:chromeOptions: {debuggerAddress: localhost:53024}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bc9919ae2ac3970c6be41224d5520970
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at com.kms.katalon.core.webui.helper.screenshot.WebUIScreenCaptor.take(WebUIScreenCaptor.java:26)
+	at com.kms.katalon.core.helper.screenshot.ScreenCaptor.takeScreenshotAndGetAttributes(ScreenCaptor.java:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.waitForElementVisible(WaitForElementVisibleKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.execute(WaitForElementVisibleKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(WebUiBuiltInKeywords.groovy:434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementVisible$0.call(Unknown Source)
+	at TC_DETAILS_UI_001.run(TC_DETAILS_UI_001:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601450942671.run(TempTestSuite1601450942671.groovy:39)
+</property>
+  <property name="failed.exception.message">no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.121)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;Martins-MacBook-Pro-2.local&apos;, ip: &apos;fe80:0:0:0:8f7:d6f2:ca3a:e857%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/25/w809fgvj0yj...}, goog:chromeOptions: {debuggerAddress: localhost:53024}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bc9919ae2ac3970c6be41224d5520970</property>
+</record>
+<record>
+  <date>2020-09-30T14:29:47</date>
+  <millis>1601450987714</millis>
+  <sequence>129</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to wait for object &amp;apos;Object Repository/Item Details Objects/Page_diagnostics/div.item-details&amp;apos; to be visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to wait for object &amp;apos;Object Repository/Item Details Objects/Page_diagnostics/div.item-details&amp;apos; to be visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.waitForElementVisible(WaitForElementVisibleKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.execute(WaitForElementVisibleKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(WebUiBuiltInKeywords.groovy:434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementVisible$0.call(Unknown Source)
+	at TC_DETAILS_UI_001.run(TC_DETAILS_UI_001:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601450942671.run(TempTestSuite1601450942671.groovy:39)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.121)
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;Martins-MacBook-Pro-2.local&amp;apos;, ip: &amp;apos;fe80:0:0:0:8f7:d6f2:ca3a:e857%en0&amp;apos;, os.name: &amp;apos;Mac OS X&amp;apos;, os.arch: &amp;apos;x86_64&amp;apos;, os.version: &amp;apos;10.15.7&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/25/w809fgvj0yj...}, goog:chromeOptions: {debuggerAddress: localhost:53024}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bc9919ae2ac3970c6be41224d5520970
+*** Element info: {Using=css selector, value=div.item-details}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:441)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1013)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:904)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:891)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:886)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:882)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:732)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:717)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1363)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword$findWebElement.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword$_waitForElementVisible_closure1.doCall(WaitForElementVisibleKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword$_waitForElementVisible_closure1.doCall(WaitForElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.waitForElementVisible(WaitForElementVisibleKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.execute(WaitForElementVisibleKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(WebUiBuiltInKeywords.groovy:434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementVisible$0.call(Unknown Source)
+	at Script1601284415839.run(Script1601284415839.groovy:20)
+	... 13 more
+)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.openqa.selenium.NoSuchWindowException</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.121)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;Martins-MacBook-Pro-2.local&apos;, ip: &apos;fe80:0:0:0:8f7:d6f2:ca3a:e857%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/25/w809fgvj0yj...}, goog:chromeOptions: {debuggerAddress: localhost:53024}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bc9919ae2ac3970c6be41224d5520970
+*** Element info: {Using=css selector, value=div.item-details}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:441)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1013)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:904)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:891)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:886)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:882)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:732)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:717)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1363)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword$findWebElement.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword$_waitForElementVisible_closure1.doCall(WaitForElementVisibleKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword$_waitForElementVisible_closure1.doCall(WaitForElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.waitForElementVisible(WaitForElementVisibleKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.execute(WaitForElementVisibleKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(WebUiBuiltInKeywords.groovy:434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementVisible$0.call(Unknown Source)
+	at TC_DETAILS_UI_001.run(TC_DETAILS_UI_001:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601450942671.run(TempTestSuite1601450942671.groovy:39)
+</property>
+  <property name="failed.exception.message">no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.121)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;Martins-MacBook-Pro-2.local&apos;, ip: &apos;fe80:0:0:0:8f7:d6f2:ca3a:e857%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/25/w809fgvj0yj...}, goog:chromeOptions: {debuggerAddress: localhost:53024}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bc9919ae2ac3970c6be41224d5520970
+*** Element info: {Using=css selector, value=div.item-details}</property>
+</record>
+<record>
+  <date>2020-09-30T14:29:47</date>
+  <millis>1601450987718</millis>
+  <sequence>130</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForElementVisible(findTestObject(&amp;quot;Item Details Objects/Page_diagnostics/div.item-details&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-30T14:29:47</date>
+  <millis>1601450987736</millis>
+  <sequence>133</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_001 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object &amp;apos;Object Repository/Item Details Objects/Page_diagnostics/div.item-details&amp;apos; to be visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.waitForElementVisible(WaitForElementVisibleKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.execute(WaitForElementVisibleKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(WebUiBuiltInKeywords.groovy:434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementVisible$0.call(Unknown Source)
+	at TC_DETAILS_UI_001.run(TC_DETAILS_UI_001:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601450942671.run(TempTestSuite1601450942671.groovy:39)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.121)
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;Martins-MacBook-Pro-2.local&amp;apos;, ip: &amp;apos;fe80:0:0:0:8f7:d6f2:ca3a:e857%en0&amp;apos;, os.name: &amp;apos;Mac OS X&amp;apos;, os.arch: &amp;apos;x86_64&amp;apos;, os.version: &amp;apos;10.15.7&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/25/w809fgvj0yj...}, goog:chromeOptions: {debuggerAddress: localhost:53024}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bc9919ae2ac3970c6be41224d5520970
+*** Element info: {Using=css selector, value=div.item-details}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:441)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1013)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:904)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:891)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:886)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:882)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:732)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:717)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1363)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword$findWebElement.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword$_waitForElementVisible_closure1.doCall(WaitForElementVisibleKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword$_waitForElementVisible_closure1.doCall(WaitForElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to wait for object 'Object Repository/Item Details Objects/Page_diagnostics/div.item-details' to be visible</message>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeyword</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword</class>
+      <method>waitForElementVisible</method>
+      <line>98</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword</class>
+      <method>execute</method>
+      <line>68</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>73</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>waitForElementVisible</method>
+      <line>434</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementVisible$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TC_DETAILS_UI_001</class>
+      <method>run</method>
+      <line>20</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>339</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>330</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>309</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>301</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>235</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>191</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>141</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>90</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1601450942671</class>
+      <method>run</method>
+      <line>39</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.121)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;Martins-MacBook-Pro-2.local&apos;, ip: &apos;fe80:0:0:0:8f7:d6f2:ca3a:e857%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/25/w809fgvj0yj...}, goog:chromeOptions: {debuggerAddress: localhost:53024}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bc9919ae2ac3970c6be41224d5520970
+*** Element info: {Using=css selector, value=div.item-details}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:441)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1013)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:904)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:891)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:886)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:882)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:732)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:717)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1363)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword$findWebElement.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword$_waitForElementVisible_closure1.doCall(WaitForElementVisibleKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword$_waitForElementVisible_closure1.doCall(WaitForElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.waitForElementVisible(WaitForElementVisibleKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.execute(WaitForElementVisibleKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(WebUiBuiltInKeywords.groovy:434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementVisible$0.call(Unknown Source)
+	at TC_DETAILS_UI_001.run(TC_DETAILS_UI_001:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1601450942671.run(TempTestSuite1601450942671.groovy:39)
+</property>
+  <property name="failed.exception.class">org.openqa.selenium.NoSuchWindowException</property>
+  <property name="failed.exception.message">no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.121)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;Martins-MacBook-Pro-2.local&apos;, ip: &apos;fe80:0:0:0:8f7:d6f2:ca3a:e857%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/25/w809fgvj0yj...}, goog:chromeOptions: {debuggerAddress: localhost:53024}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bc9919ae2ac3970c6be41224d5520970
+*** Element info: {Using=css selector, value=div.item-details}</property>
+</record>
+<record>
+  <date>2020-09-30T14:29:47</date>
+  <millis>1601450987740</millis>
+  <sequence>135</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_001</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-30T14:29:47</date>
+  <millis>1601450987749</millis>
+  <sequence>136</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_002</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_002</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_002</property>
+  <property name="source">\Users\martinrahardja\Documents\Github\find-item-detail-test\Test Cases\Custom Item Details\TEST CASE\TC_DETAILS_UI_002.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-09-30T14:29:48</date>
+  <millis>1601450988157</millis>
+  <sequence>138</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase(findTestCase(&amp;quot;Custom Item Details/UTILITIES/OPEN_BROWSER&amp;quot;), [:], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-09-30T14:29:48</date>
+  <millis>1601450988243</millis>
+  <sequence>141</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER</property>
+  <property name="source">\Users\martinrahardja\Documents\Github\find-item-detail-test\Test Cases\Custom Item Details\UTILITIES\OPEN_BROWSER.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-09-30T14:29:48</date>
+  <millis>1601450988260</millis>
+  <sequence>143</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(&amp;quot;https://diagnostics.staging.arcadier.io/user/item/detail/covid19agencyfind/ff4ed938-0c51-43e1-a409-95aa6520ab89&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-09-30T14:29:48</date>
+  <millis>1601450988273</millis>
+  <sequence>145</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>A browser is already opened. Closing browser and opening a new one</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-30T14:29:48</date>
+  <millis>1601450988407</millis>
+  <sequence>146</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-30T14:29:48</date>
+  <millis>1601450988425</millis>
+  <sequence>148</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-30T14:29:50</date>
+  <millis>1601450990827</millis>
+  <sequence>150</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = d4b3001e7ffe51c70428f81988c5a3d5</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="sessionId">d4b3001e7ffe51c70428f81988c5a3d5</property>
+</record>
+<record>
+  <date>2020-09-30T14:29:50</date>
+  <millis>1601450990841</millis>
+  <sequence>151</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 85.0.4183.121</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="browser">Chrome 85.0.4183.121</property>
+</record>
+<record>
+  <date>2020-09-30T14:29:50</date>
+  <millis>1601450990841</millis>
+  <sequence>152</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Mac OS X</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="platform">Mac OS X</property>
+</record>
+<record>
+  <date>2020-09-30T14:29:50</date>
+  <millis>1601450990842</millis>
+  <sequence>153</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2020-09-30T14:29:50</date>
+  <millis>1601450990842</millis>
+  <sequence>154</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&amp;quot;&amp;quot;, isApplyToDesiredCapabilities=true }</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }</property>
+</record>
+<record>
+  <date>2020-09-30T14:29:54</date>
+  <millis>1601450994118</millis>
+  <sequence>156</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;https://diagnostics.staging.arcadier.io/user/item/detail/covid19agencyfind/ff4ed938-0c51-43e1-a409-95aa6520ab89&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-30T14:29:54</date>
+  <millis>1601450994118</millis>
+  <sequence>157</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(&amp;quot;https://diagnostics.staging.arcadier.io/user/item/detail/covid19agencyfind/ff4ed938-0c51-43e1-a409-95aa6520ab89&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-30T14:29:54</date>
+  <millis>1601450994119</millis>
+  <sequence>158</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-30T14:29:54</date>
+  <millis>1601450994119</millis>
+  <sequence>159</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-30T14:29:54</date>
+  <millis>1601450994119</millis>
+  <sequence>160</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Call Test Case &amp;apos;Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-30T14:29:54</date>
+  <millis>1601450994120</millis>
+  <sequence>161</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : callTestCase(findTestCase(&amp;quot;Custom Item Details/UTILITIES/OPEN_BROWSER&amp;quot;), [:], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-30T14:29:54</date>
+  <millis>1601450994120</millis>
+  <sequence>162</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForElementVisible(findTestObject(&amp;quot;Item Details Objects/Page_diagnostics/div.item-detail-right&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-09-30T14:29:54</date>
+  <millis>1601450994184</millis>
+  <sequence>166</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>

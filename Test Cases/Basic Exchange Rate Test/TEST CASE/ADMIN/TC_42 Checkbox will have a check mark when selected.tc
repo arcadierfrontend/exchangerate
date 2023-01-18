@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_42 Checkbox will have a check mark when selected</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9ac8faf5-bd30-423f-b031-f7a0b2d5eb32</testCaseGuid>
+</TestCaseEntity>

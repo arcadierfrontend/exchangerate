@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_44 Only one selected currency, the textlabel will appear on the top of the window</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>291c87e0-fee5-4fce-9695-174f26deed02</testCaseGuid>
+</TestCaseEntity>

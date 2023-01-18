@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_19 User defined currency on textlabel is displayed by default</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>972cb24a-4b90-4674-89ef-7af0b86fa524</testCaseGuid>
+</TestCaseEntity>

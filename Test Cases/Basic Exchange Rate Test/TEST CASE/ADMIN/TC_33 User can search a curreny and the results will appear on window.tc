@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_33 User can search a curreny and the results will appear on window</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>786b16a2-50d0-4445-8868-ff379b26f876</testCaseGuid>
+</TestCaseEntity>

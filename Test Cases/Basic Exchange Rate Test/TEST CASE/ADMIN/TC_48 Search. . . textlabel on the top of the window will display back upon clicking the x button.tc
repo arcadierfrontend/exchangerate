@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_48 Search. . . textlabel on the top of the window will display back upon clicking the x button</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>30957014-f351-4d84-8bf0-28cdb00622c5</testCaseGuid>
+</TestCaseEntity>

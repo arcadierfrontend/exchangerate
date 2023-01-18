@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_18 User defined currency on textfield is displayed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1c270b41-e2d9-4897-b172-4382417f3f7c</testCaseGuid>
+</TestCaseEntity>

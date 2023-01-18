@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Admin can upgrade the Plug-in</description>
+   <name>TC_11 Admin can upgrade the Plug-in</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f8c11099-2a0e-45bb-8412-d0a686b92b46</testCaseGuid>
+</TestCaseEntity>

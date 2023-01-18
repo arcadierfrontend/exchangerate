@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_45 Currencys are selected, magnifying glass will become x button</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d1b9008e-9d35-4323-90fb-5ed714d7e16a</testCaseGuid>
+</TestCaseEntity>

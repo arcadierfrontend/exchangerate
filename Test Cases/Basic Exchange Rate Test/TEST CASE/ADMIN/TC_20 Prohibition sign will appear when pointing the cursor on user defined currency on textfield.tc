@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_20 Prohibition sign will appear when pointing the cursor on user defined currency on textfield</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ceeaf3d8-12dc-47b2-8954-eef9a7f0d698</testCaseGuid>
+</TestCaseEntity>

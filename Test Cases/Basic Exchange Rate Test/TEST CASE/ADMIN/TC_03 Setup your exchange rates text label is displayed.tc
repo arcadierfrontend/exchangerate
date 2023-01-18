@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Exchange Rate icon is displayed</description>
+   <name>TC_03 Setup your exchange rates text label is displayed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0881b0a-89ef-43a6-a5d1-5f2a307d617b</testCaseGuid>
+</TestCaseEntity>

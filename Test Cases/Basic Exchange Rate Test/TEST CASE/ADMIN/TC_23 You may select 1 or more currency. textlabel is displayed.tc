@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_23 You may select 1 or more currency. textlabel is displayed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ef39a5e5-0a6e-4c6c-a26b-e569cdc3a3f6</testCaseGuid>
+</TestCaseEntity>

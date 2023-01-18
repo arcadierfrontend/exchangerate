@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_31 Magnifying glass icon is not clickable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2912bd65-5b6d-406c-a593-b765c3408820</testCaseGuid>
+</TestCaseEntity>

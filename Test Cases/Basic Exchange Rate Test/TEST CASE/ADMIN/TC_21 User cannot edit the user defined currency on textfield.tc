@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_21 User cannot edit the user defined currency on textfield</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>66b82d80-2210-42a0-b0c9-43311ae12aab</testCaseGuid>
+</TestCaseEntity>

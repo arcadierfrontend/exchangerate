@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Admin can upgrade the Plug-in</description>
+   <name>TC_01 The Exchange Rate plug-in installed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9c4fe28c-52c1-40ee-a08c-50a058fbfa55</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,2159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Item detail test" time="1181.15" tests="43" failures="0" errors="0">
+   <testsuite name="Item detail test" tests="43" failures="0" errors="0" time="1181.15" timestamp="2020-12-18 16:25:23" hostname="Lexoter - DESKTOP-IJBB9BE" id="Test Suites/Item detail test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="K:\\Work\\GitHub\\find-item-detail-test\\Reports\\20201218_162512\\Item detail test\\20201218_162512"/>
+         <property name="logFiles" value="K:\\Work\\GitHub\\find-item-detail-test\\Reports\\20201218_162512\\Item detail test\\20201218_162512\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Lexoter - DESKTOP-IJBB9BE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.7.0.205"/>
+         <property name="browser" value="Chrome 87.0.4280.88"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="cfd2ae437ec2e6f56ec4a5088ece567b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_001" time="14.741" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_001" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:25:23 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_001: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_001
+
+2020-12-18 16:25:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:25:24 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:25:24 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:25:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:25:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:25:36 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:25:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:25:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/div.item-details"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/div.item-details' is visible
+
+2020-12-18 16:25:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:25:37 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div.item-details' is visible
+
+2020-12-18 16:25:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:25:37 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:25:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:25:38 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:25:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_002" time="13.541" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_002" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:25:38 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_002: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_002
+
+2020-12-18 16:25:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:25:38 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:25:38 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:25:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:25:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:25:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:25:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:25:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/div.item-detail-right"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/div.item-detail-right' is visible
+
+2020-12-18 16:25:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:25:51 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div.item-detail-right' is visible
+
+2020-12-18 16:25:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:25:51 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:25:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:25:51 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:25:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_003" time="17.465" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_003" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:25:51 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_003: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_003
+
+2020-12-18 16:25:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:25:52 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:25:52 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:25:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:25:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:26:06 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:26:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:26:06 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/img.Item"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/img.Item' is visible
+
+2020-12-18 16:26:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:26:08 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/img.Item' is visible
+
+2020-12-18 16:26:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:26:08 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:26:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:26:09 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:26:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_004" time="14.207" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_004" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:26:09 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_004: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_004
+
+2020-12-18 16:26:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:26:09 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:26:09 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:26:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:26:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:26:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:26:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:26:21 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/div.merchant-name2"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/div.merchant-name2' is visible
+
+2020-12-18 16:26:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:26:22 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div.merchant-name2' is visible
+
+2020-12-18 16:26:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:26:22 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:26:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:26:23 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:26:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_005" time="15.125" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_005" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:26:23 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_005: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_005
+
+2020-12-18 16:26:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:26:23 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:26:23 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:26:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:26:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:26:36 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:26:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:26:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/Merchant_name"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Merchant_name' is visible
+
+2020-12-18 16:26:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:26:37 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Merchant_name' is visible
+
+2020-12-18 16:26:37 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Item Details Objects/Page_diagnostics/Merchant_name")): Object 'Object Repository/Item Details Objects/Page_diagnostics/Merchant_name' is clickable
+
+2020-12-18 16:26:38 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Merchant_name' is clickable
+
+2020-12-18 16:26:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:26:38 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:26:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:26:38 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:26:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_006" time="15.408" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_006" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:26:38 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_006: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_006
+
+2020-12-18 16:26:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:26:38 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:26:38 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:26:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:26:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:26:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:26:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:26:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/a_Contact_seller_btn"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Contact_seller_btn' is visible
+
+2020-12-18 16:26:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:26:51 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Contact_seller_btn' is visible
+
+2020-12-18 16:26:51 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Item Details Objects/Page_diagnostics/a_Contact_seller_btn")): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Contact_seller_btn' is clickable
+
+2020-12-18 16:26:52 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Contact_seller_btn' is clickable
+
+2020-12-18 16:26:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Item Details Objects/Page_diagnostics/a_Contact_seller_btn"), "CONTACT SELLER"): Actual text and expected text of test object 'Object Repository/Item Details Objects/Page_diagnostics/a_Contact_seller_btn' are matched.
+
+2020-12-18 16:26:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Item Details Objects/Page_diagnostics/a_Contact_seller_btn' are matched.
+
+2020-12-18 16:26:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:26:53 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:26:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:26:54 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:26:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_007" time="14.507" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_007" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:26:54 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_007: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_007
+
+2020-12-18 16:26:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:26:54 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:26:54 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:26:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:26:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:27:06 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:27:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:27:06 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/div.item-detail-left"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/div.item-detail-left' is visible
+
+2020-12-18 16:27:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:27:07 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div.item-detail-left' is visible
+
+2020-12-18 16:27:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:27:08 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:27:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:27:08 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:27:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_008" time="14.032" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_008" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:27:08 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_008: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_008
+
+2020-12-18 16:27:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:27:08 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:27:08 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:27:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:27:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:27:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:27:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:27:20 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/div_itemDetailName"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/div_itemDetailName' is visible
+
+2020-12-18 16:27:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:27:21 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div_itemDetailName' is visible
+
+2020-12-18 16:27:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:27:22 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:27:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:27:22 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:27:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_009" time="13.778" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_009" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:27:22 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_009: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_009
+
+2020-12-18 16:27:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:27:22 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:27:22 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:27:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:27:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:27:34 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:27:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:27:34 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/div.item-id"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/div.item-id' is visible
+
+2020-12-18 16:27:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:27:35 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div.item-id' is visible
+
+2020-12-18 16:27:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:27:35 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:27:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:27:36 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:27:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_010" time="14.347" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_010" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:27:36 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_010: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_010
+
+2020-12-18 16:27:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:27:36 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:27:36 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:27:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:27:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:27:48 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:27:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:27:48 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/div.new-button-area"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/div.new-button-area' is visible
+
+2020-12-18 16:27:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:27:50 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div.new-button-area' is visible
+
+2020-12-18 16:27:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:27:50 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:27:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:27:50 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:27:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_011" time="44.272" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_011" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:27:50 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_011: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_011
+
+2020-12-18 16:27:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:27:51 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:27:51 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:27:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:27:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:28:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:28:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:28:03 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/div.item-price-text"), 0): Web element with id: 'Object Repository/Item Details Objects/Page_diagnostics/div.item-price-text' located by 'div.item-price-text' not found
+
+2020-12-18 16:28:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:28:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: div.item-price-text'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-12-18 16:28:34 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Item Details Objects/Page_diagnostics/div.item-price-text' located by 'div.item-price-text' not found
+
+2020-12-18 16:28:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:28:34 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:28:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:28:35 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:28:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_012" time="16.805" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_012" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:28:35 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_012: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_012
+
+2020-12-18 16:28:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:28:35 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:28:35 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:28:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:28:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:28:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:28:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:28:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/btn_Procure_from_other_Agencies"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/btn_Procure_from_other_Agencies' is visible
+
+2020-12-18 16:28:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:28:48 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/btn_Procure_from_other_Agencies' is visible
+
+2020-12-18 16:28:48 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Item Details Objects/Page_diagnostics/btn_Procure_from_other_Agencies")): Object 'Object Repository/Item Details Objects/Page_diagnostics/btn_Procure_from_other_Agencies' is clickable
+
+2020-12-18 16:28:49 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/btn_Procure_from_other_Agencies' is clickable
+
+2020-12-18 16:28:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Item Details Objects/Page_diagnostics/btn_Procure_from_other_Agencies"), "PROCURE FROM OTHER AGENCIES"): Actual text and expected text of test object 'Object Repository/Item Details Objects/Page_diagnostics/btn_Procure_from_other_Agencies' are matched.
+
+2020-12-18 16:28:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Item Details Objects/Page_diagnostics/btn_Procure_from_other_Agencies' are matched.
+
+2020-12-18 16:28:49 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:28:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:28:49 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/btn_Procure_from_other_Agencies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/btn_Procure_from_other_Agencies' is clicked on
+
+2020-12-18 16:28:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/btn_Procure_from_other_Agencies' is clicked on
+
+2020-12-18 16:28:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:28:51 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:28:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:28:51 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:28:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_014" time="14.039" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_014" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:28:51 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_014: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_014
+
+2020-12-18 16:28:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:28:52 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:28:52 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:28:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:28:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:29:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:29:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:29:04 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Item Details Objects/Page_diagnostics/btn_Procure_grey"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/btn_Procure_grey' is present
+
+2020-12-18 16:29:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:29:05 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/btn_Procure_grey' is present
+
+2020-12-18 16:29:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:29:05 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:29:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:29:05 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:29:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_015" time="16.008" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_015" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:29:05 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_015: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_015
+
+2020-12-18 16:29:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:29:06 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:29:06 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:29:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:29:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:29:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:29:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:29:18 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/div_Description"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Description' is visible
+
+2020-12-18 16:29:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:29:19 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Description' is visible
+
+2020-12-18 16:29:19 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Item Details Objects/Page_diagnostics/div_Description")): Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Description' is clickable
+
+2020-12-18 16:29:20 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Description' is clickable
+
+2020-12-18 16:29:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Item Details Objects/Page_diagnostics/div_Description"), "Description"): Actual text and expected text of test object 'Object Repository/Item Details Objects/Page_diagnostics/div_Description' are matched.
+
+2020-12-18 16:29:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Item Details Objects/Page_diagnostics/div_Description' are matched.
+
+2020-12-18 16:29:20 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/div_Description")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/div_Description' is clicked on
+
+2020-12-18 16:29:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/div_Description' is clicked on
+
+2020-12-18 16:29:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:29:21 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:29:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:29:21 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:29:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_016" time="15.241" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_016" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:29:21 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_016: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_016
+
+2020-12-18 16:29:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:29:22 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:29:22 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:29:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:29:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:29:34 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:29:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:29:34 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/div_Technical Specifications"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Technical Specifications' is visible
+
+2020-12-18 16:29:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:29:35 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Technical Specifications' is visible
+
+2020-12-18 16:29:35 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Item Details Objects/Page_diagnostics/div_Technical Specifications")): Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Technical Specifications' is clickable
+
+2020-12-18 16:29:35 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Technical Specifications' is clickable
+
+2020-12-18 16:29:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Item Details Objects/Page_diagnostics/div_Technical Specifications"), "Technical Specifications"): Actual text and expected text of test object 'Object Repository/Item Details Objects/Page_diagnostics/div_Technical Specifications' are matched.
+
+2020-12-18 16:29:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Item Details Objects/Page_diagnostics/div_Technical Specifications' are matched.
+
+2020-12-18 16:29:36 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/div_Technical Specifications")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/div_Technical Specifications' is clicked on
+
+2020-12-18 16:29:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/div_Technical Specifications' is clicked on
+
+2020-12-18 16:29:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:29:36 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:29:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:29:37 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:29:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_017" time="26.706" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_017" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:29:37 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_017: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_017
+
+2020-12-18 16:29:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:29:37 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:29:37 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:29:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:29:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:29:49 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:29:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:29:49 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:29:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:29:52 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:29:52 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:29:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:29:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/div_Product_Attributes"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Product_Attributes' is visible
+
+2020-12-18 16:29:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:29:57 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Product_Attributes' is visible
+
+2020-12-18 16:29:57 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Item Details Objects/Page_diagnostics/div_Product_Attributes")): Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Product_Attributes' is clickable
+
+2020-12-18 16:29:59 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Product_Attributes' is clickable
+
+2020-12-18 16:29:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Item Details Objects/Page_diagnostics/div_Product_Attributes"), "Product Attributes"): Actual text and expected text of test object 'Object Repository/Item Details Objects/Page_diagnostics/div_Product_Attributes' are matched.
+
+2020-12-18 16:30:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Item Details Objects/Page_diagnostics/div_Product_Attributes' are matched.
+
+2020-12-18 16:30:01 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/div_Product_Attributes")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/div_Product_Attributes' is clicked on
+
+2020-12-18 16:30:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/div_Product_Attributes' is clicked on
+
+2020-12-18 16:30:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:30:03 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:30:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:30:03 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:30:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_018" time="16.475" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_018" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:30:03 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_018: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_018
+
+2020-12-18 16:30:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:30:04 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:30:04 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:30:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:30:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:30:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:30:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:30:16 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:30:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:30:17 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:30:17 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:30:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:30:18 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/div_Manufacture_Information"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Manufacture_Information' is visible
+
+2020-12-18 16:30:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:30:18 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Manufacture_Information' is visible
+
+2020-12-18 16:30:18 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Item Details Objects/Page_diagnostics/div_Manufacture_Information")): Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Manufacture_Information' is clickable
+
+2020-12-18 16:30:18 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Manufacture_Information' is clickable
+
+2020-12-18 16:30:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Item Details Objects/Page_diagnostics/div_Manufacture_Information"), "Manufacture Information"): Actual text and expected text of test object 'Object Repository/Item Details Objects/Page_diagnostics/div_Manufacture_Information' are matched.
+
+2020-12-18 16:30:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Item Details Objects/Page_diagnostics/div_Manufacture_Information' are matched.
+
+2020-12-18 16:30:18 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/div_Manufacture_Information")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/div_Manufacture_Information' is clicked on
+
+2020-12-18 16:30:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/div_Manufacture_Information' is clicked on
+
+2020-12-18 16:30:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:30:19 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:30:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:30:20 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:30:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_019" time="17.304" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_019" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:30:20 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_019: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_019
+
+2020-12-18 16:30:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:30:20 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:30:20 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:30:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:30:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:30:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:30:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:30:33 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:30:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:30:33 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:30:33 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:30:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:30:34 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/div_Regulatory_Approval"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Regulatory_Approval' is visible
+
+2020-12-18 16:30:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:30:35 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Regulatory_Approval' is visible
+
+2020-12-18 16:30:35 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Item Details Objects/Page_diagnostics/div_Regulatory_Approval")): Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Regulatory_Approval' is clickable
+
+2020-12-18 16:30:36 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Regulatory_Approval' is clickable
+
+2020-12-18 16:30:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Item Details Objects/Page_diagnostics/div_Regulatory_Approval"), "Regulatory Approval"): Actual text and expected text of test object 'Object Repository/Item Details Objects/Page_diagnostics/div_Regulatory_Approval' are matched.
+
+2020-12-18 16:30:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Item Details Objects/Page_diagnostics/div_Regulatory_Approval' are matched.
+
+2020-12-18 16:30:36 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/div_Regulatory_Approval")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/div_Regulatory_Approval' is clicked on
+
+2020-12-18 16:30:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/div_Regulatory_Approval' is clicked on
+
+2020-12-18 16:30:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:30:37 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:30:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:30:37 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:30:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_019" time="16.135" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_019" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:30:37 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_019: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_019
+
+2020-12-18 16:30:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:30:37 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:30:37 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:30:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:30:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:30:49 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:30:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:30:49 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:30:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:30:51 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:30:51 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:30:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:30:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/div_Regulatory_Approval"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Regulatory_Approval' is visible
+
+2020-12-18 16:30:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:30:51 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Regulatory_Approval' is visible
+
+2020-12-18 16:30:51 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Item Details Objects/Page_diagnostics/div_Regulatory_Approval")): Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Regulatory_Approval' is clickable
+
+2020-12-18 16:30:52 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Regulatory_Approval' is clickable
+
+2020-12-18 16:30:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Item Details Objects/Page_diagnostics/div_Regulatory_Approval"), "Regulatory Approval"): Actual text and expected text of test object 'Object Repository/Item Details Objects/Page_diagnostics/div_Regulatory_Approval' are matched.
+
+2020-12-18 16:30:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Item Details Objects/Page_diagnostics/div_Regulatory_Approval' are matched.
+
+2020-12-18 16:30:52 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/div_Regulatory_Approval")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/div_Regulatory_Approval' is clicked on
+
+2020-12-18 16:30:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/div_Regulatory_Approval' is clicked on
+
+2020-12-18 16:30:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:30:53 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:30:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:30:53 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:30:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_020" time="17.714" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_020" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:30:53 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_020: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_020
+
+2020-12-18 16:30:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:30:54 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:30:54 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:30:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:30:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:31:06 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:31:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:31:06 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:31:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:31:07 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:31:07 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:31:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:31:08 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/a_Procure_from_other_Agencies"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Procure_from_other_Agencies' is visible
+
+2020-12-18 16:31:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:31:08 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Procure_from_other_Agencies' is visible
+
+2020-12-18 16:31:08 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Item Details Objects/Page_diagnostics/a_Procure_from_other_Agencies")): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Procure_from_other_Agencies' is clickable
+
+2020-12-18 16:31:08 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Procure_from_other_Agencies' is clickable
+
+2020-12-18 16:31:08 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Procure_from_other_Agencies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Procure_from_other_Agencies' is clicked on
+
+2020-12-18 16:31:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Procure_from_other_Agencies' is clicked on
+
+2020-12-18 16:31:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/Page_diagnostics/div_Login_Page"), 0): Object 'Object Repository/Login Page/Page_diagnostics/div_Login_Page' is present
+
+2020-12-18 16:31:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:31:10 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/Page_diagnostics/div_Login_Page' is present
+
+2020-12-18 16:31:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:31:10 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:31:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:31:11 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:31:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_021" time="19.822" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_021" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:31:11 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_021: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_021
+
+2020-12-18 16:31:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:31:11 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:31:11 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:31:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:31:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:31:24 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:31:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:31:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/ITEM_DETAIL_PAGE"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/ITEM_DETAIL_PAGE' successfully
+
+2020-12-18 16:31:24 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/ITEM_DETAIL_PAGE: Test Cases/Custom Item Details/UTILITIES/ITEM_DETAIL_PAGE
+
+2020-12-18 16:31:24 - [TEST_STEP][PASSED] - navigateToUrl("https://gdasandbox.test-arcadier.com/user/item/detail/gdaagencyfind/59fde34e-4dcb-44b5-bdcd-2bde962c0cb5"): Navigate to 'https://gdasandbox.test-arcadier.com/user/item/detail/gdaagencyfind/59fde34e-4dcb-44b5-bdcd-2bde962c0cb5' successfully
+
+2020-12-18 16:31:25 - [MESSAGE][PASSED] - Navigate to 'https://gdasandbox.test-arcadier.com/user/item/detail/gdaagencyfind/59fde34e-4dcb-44b5-bdcd-2bde962c0cb5' successfully
+
+2020-12-18 16:31:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/ITEM_DETAIL_PAGE' successfully
+
+2020-12-18 16:31:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:31:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:31:27 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:31:27 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:31:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:31:27 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/a_Procure_Directly_From_Seller"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Procure_Directly_From_Seller' is visible
+
+2020-12-18 16:31:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:31:28 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Procure_Directly_From_Seller' is visible
+
+2020-12-18 16:31:28 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Item Details Objects/Page_diagnostics/a_Procure_Directly_From_Seller")): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Procure_Directly_From_Seller' is clickable
+
+2020-12-18 16:31:28 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Procure_Directly_From_Seller' is clickable
+
+2020-12-18 16:31:28 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Procure_Directly_From_Seller")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Procure_Directly_From_Seller' is clicked on
+
+2020-12-18 16:31:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Procure_Directly_From_Seller' is clicked on
+
+2020-12-18 16:31:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/Page_diagnostics/div_Login_Page"), 0): Object 'Object Repository/Login Page/Page_diagnostics/div_Login_Page' is present
+
+2020-12-18 16:31:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:31:30 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/Page_diagnostics/div_Login_Page' is present
+
+2020-12-18 16:31:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:31:30 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:31:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:31:31 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:31:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_022" time="31.995" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_022" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:31:31 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_022: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_022
+
+2020-12-18 16:31:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:31:31 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:31:31 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:31:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:31:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:31:42 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:31:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:31:42 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:31:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:31:44 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:31:44 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:31:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:31:45 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/a_Procure_Directly_From_Seller"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Procure_Directly_From_Seller' is visible
+
+2020-12-18 16:31:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:31:45 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Procure_Directly_From_Seller' is visible
+
+2020-12-18 16:31:45 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Procure_Directly_From_Seller")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Procure_Directly_From_Seller' is clicked on
+
+2020-12-18 16:31:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Procure_Directly_From_Seller' is clicked on
+
+2020-12-18 16:31:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/Page_diagnostics/div_Login_Page"), 0): Object 'Object Repository/Login Page/Page_diagnostics/div_Login_Page' is present
+
+2020-12-18 16:31:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:31:47 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/Page_diagnostics/div_Login_Page' is present
+
+2020-12-18 16:31:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/LOGIN"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/LOGIN' successfully
+
+2020-12-18 16:31:47 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/LOGIN: Test Cases/Custom Item Details/UTILITIES/LOGIN
+
+2020-12-18 16:31:48 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Page_diagnostics/a_Sign_In_as_ Buyer")): Object: 'Object Repository/Login Page/Page_diagnostics/a_Sign_In_as_ Buyer' is clicked on
+
+2020-12-18 16:31:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_diagnostics/a_Sign_In_as_ Buyer' is clicked on
+
+2020-12-18 16:31:48 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Page_diagnostics/input_EmailUsername"), "admin"): Text 'admin' is set on object 'Object Repository/Login Page/Page_diagnostics/input_EmailUsername'
+
+2020-12-18 16:31:49 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login Page/Page_diagnostics/input_EmailUsername'
+
+2020-12-18 16:31:49 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Page_diagnostics/input_Password"), "Diagnostics123!"): Text 'Diagnostics123!' is set on object 'Object Repository/Login Page/Page_diagnostics/input_Password'
+
+2020-12-18 16:31:49 - [MESSAGE][PASSED] - Text 'Diagnostics123!' is set on object 'Object Repository/Login Page/Page_diagnostics/input_Password'
+
+2020-12-18 16:31:49 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Page_diagnostics/input_Login-Submit")): Object: 'Object Repository/Login Page/Page_diagnostics/input_Login-Submit' is clicked on
+
+2020-12-18 16:31:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_diagnostics/input_Login-Submit' is clicked on
+
+2020-12-18 16:31:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/LOGIN' successfully
+
+2020-12-18 16:31:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/ITEM_DETAIL_PAGE"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/ITEM_DETAIL_PAGE' successfully
+
+2020-12-18 16:31:57 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/ITEM_DETAIL_PAGE: Test Cases/Custom Item Details/UTILITIES/ITEM_DETAIL_PAGE
+
+2020-12-18 16:31:57 - [TEST_STEP][PASSED] - navigateToUrl("https://gdasandbox.test-arcadier.com/user/item/detail/gdaagencyfind/59fde34e-4dcb-44b5-bdcd-2bde962c0cb5"): Navigate to 'https://gdasandbox.test-arcadier.com/user/item/detail/gdaagencyfind/59fde34e-4dcb-44b5-bdcd-2bde962c0cb5' successfully
+
+2020-12-18 16:31:59 - [MESSAGE][PASSED] - Navigate to 'https://gdasandbox.test-arcadier.com/user/item/detail/gdaagencyfind/59fde34e-4dcb-44b5-bdcd-2bde962c0cb5' successfully
+
+2020-12-18 16:31:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/ITEM_DETAIL_PAGE' successfully
+
+2020-12-18 16:31:59 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Procure_from_other_Agencies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Procure_from_other_Agencies' is clicked on
+
+2020-12-18 16:32:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Procure_from_other_Agencies' is clicked on
+
+2020-12-18 16:32:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Item Details Objects/Page_diagnostics/div_Jotform")): Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Jotform' is visible
+
+2020-12-18 16:32:02 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Jotform' is visible
+
+2020-12-18 16:32:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:32:02 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:32:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:32:03 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:32:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_023" time="32.907" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_023" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:32:03 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_023: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_023
+
+2020-12-18 16:32:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:32:03 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:32:03 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:32:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:32:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:32:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:32:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:32:15 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:32:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:32:16 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:32:16 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:32:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:32:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/a_Procure_Directly_From_Seller"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Procure_Directly_From_Seller' is visible
+
+2020-12-18 16:32:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:32:17 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Procure_Directly_From_Seller' is visible
+
+2020-12-18 16:32:17 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Procure_Directly_From_Seller")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Procure_Directly_From_Seller' is clicked on
+
+2020-12-18 16:32:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Procure_Directly_From_Seller' is clicked on
+
+2020-12-18 16:32:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/Page_diagnostics/div_Login_Page"), 0): Object 'Object Repository/Login Page/Page_diagnostics/div_Login_Page' is present
+
+2020-12-18 16:32:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:32:19 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/Page_diagnostics/div_Login_Page' is present
+
+2020-12-18 16:32:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/LOGIN"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/LOGIN' successfully
+
+2020-12-18 16:32:19 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/LOGIN: Test Cases/Custom Item Details/UTILITIES/LOGIN
+
+2020-12-18 16:32:19 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Page_diagnostics/a_Sign_In_as_ Buyer")): Object: 'Object Repository/Login Page/Page_diagnostics/a_Sign_In_as_ Buyer' is clicked on
+
+2020-12-18 16:32:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_diagnostics/a_Sign_In_as_ Buyer' is clicked on
+
+2020-12-18 16:32:19 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Page_diagnostics/input_EmailUsername"), "admin"): Text 'admin' is set on object 'Object Repository/Login Page/Page_diagnostics/input_EmailUsername'
+
+2020-12-18 16:32:20 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login Page/Page_diagnostics/input_EmailUsername'
+
+2020-12-18 16:32:20 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Page_diagnostics/input_Password"), "Diagnostics123!"): Text 'Diagnostics123!' is set on object 'Object Repository/Login Page/Page_diagnostics/input_Password'
+
+2020-12-18 16:32:21 - [MESSAGE][PASSED] - Text 'Diagnostics123!' is set on object 'Object Repository/Login Page/Page_diagnostics/input_Password'
+
+2020-12-18 16:32:21 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Page_diagnostics/input_Login-Submit")): Object: 'Object Repository/Login Page/Page_diagnostics/input_Login-Submit' is clicked on
+
+2020-12-18 16:32:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_diagnostics/input_Login-Submit' is clicked on
+
+2020-12-18 16:32:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/LOGIN' successfully
+
+2020-12-18 16:32:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/ITEM_DETAIL_PAGE"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/ITEM_DETAIL_PAGE' successfully
+
+2020-12-18 16:32:29 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/ITEM_DETAIL_PAGE: Test Cases/Custom Item Details/UTILITIES/ITEM_DETAIL_PAGE
+
+2020-12-18 16:32:29 - [TEST_STEP][PASSED] - navigateToUrl("https://gdasandbox.test-arcadier.com/user/item/detail/gdaagencyfind/59fde34e-4dcb-44b5-bdcd-2bde962c0cb5"): Navigate to 'https://gdasandbox.test-arcadier.com/user/item/detail/gdaagencyfind/59fde34e-4dcb-44b5-bdcd-2bde962c0cb5' successfully
+
+2020-12-18 16:32:31 - [MESSAGE][PASSED] - Navigate to 'https://gdasandbox.test-arcadier.com/user/item/detail/gdaagencyfind/59fde34e-4dcb-44b5-bdcd-2bde962c0cb5' successfully
+
+2020-12-18 16:32:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/ITEM_DETAIL_PAGE' successfully
+
+2020-12-18 16:32:31 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Procure_Directly_From_Seller")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Procure_Directly_From_Seller' is clicked on
+
+2020-12-18 16:32:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Procure_Directly_From_Seller' is clicked on
+
+2020-12-18 16:32:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Cart/Page_diagnostics/div_VIEW_CART_Area"), 0): Object 'Object Repository/Cart/Page_diagnostics/div_VIEW_CART_Area' is present
+
+2020-12-18 16:32:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:32:35 - [MESSAGE][PASSED] - Object 'Object Repository/Cart/Page_diagnostics/div_VIEW_CART_Area' is present
+
+2020-12-18 16:32:35 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Item Details Objects/Page_diagnostics/a_Cart_visible-xs")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Cart_visible-xs' is hovered
+
+2020-12-18 16:32:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Cart_visible-xs' is hovered
+
+2020-12-18 16:32:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:32:35 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:32:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:32:36 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:32:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_024" time="45.747" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_024" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:32:36 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_024: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_024
+
+2020-12-18 16:32:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:32:36 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:32:36 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:32:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:32:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:32:48 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:32:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:32:48 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:32:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:32:50 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:32:50 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:32:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:32:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/Page_diagnostics/span_Independent_evaluation"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Independent_evaluation' is not visible after 30 second(s)
+
+2020-12-18 16:32:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:33:21 - [MESSAGE][WARNING] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Independent_evaluation' is not visible after 30 second(s)
+
+2020-12-18 16:33:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Item Details Objects/Page_diagnostics/Page_diagnostics/span_Independent_evaluation"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Independent_evaluation' is present
+
+2020-12-18 16:33:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:33:21 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Independent_evaluation' is present
+
+2020-12-18 16:33:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:33:21 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:33:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:33:21 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:33:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_025" time="46.009" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_025" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:33:21 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_025: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_025
+
+2020-12-18 16:33:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:33:22 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:33:22 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:33:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:33:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:33:34 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:33:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:33:34 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:33:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:33:35 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:33:35 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:33:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:33:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/Page_diagnostics/span_FIND_evaluation"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_FIND_evaluation' is not visible after 30 second(s)
+
+2020-12-18 16:33:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:34:07 - [MESSAGE][WARNING] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_FIND_evaluation' is not visible after 30 second(s)
+
+2020-12-18 16:34:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Item Details Objects/Page_diagnostics/Page_diagnostics/span_FIND_evaluation"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_FIND_evaluation' is present
+
+2020-12-18 16:34:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:34:07 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_FIND_evaluation' is present
+
+2020-12-18 16:34:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:34:07 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:34:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:34:07 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:34:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_026" time="45.792" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_026" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:34:08 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_026: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_026
+
+2020-12-18 16:34:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:34:08 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:34:08 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:34:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:34:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:34:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:34:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:34:20 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:34:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:34:21 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:34:21 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:34:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:34:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/Page_diagnostics/span_Shelf_life"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Shelf_life' is not visible after 30 second(s)
+
+2020-12-18 16:34:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:34:52 - [MESSAGE][WARNING] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Shelf_life' is not visible after 30 second(s)
+
+2020-12-18 16:34:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Item Details Objects/Page_diagnostics/Page_diagnostics/span_Shelf_life"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Shelf_life' is present
+
+2020-12-18 16:34:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:34:53 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Shelf_life' is present
+
+2020-12-18 16:34:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:34:53 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:34:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:34:53 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:34:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_027" time="44.413" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_027" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:34:53 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_027: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_027
+
+2020-12-18 16:34:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:34:53 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:34:53 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:34:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:34:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:35:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:35:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:35:03 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:35:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:35:04 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:35:04 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:35:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:35:06 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/Page_diagnostics/span_Packaging_labeling"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Packaging_labeling' is not visible after 30 second(s)
+
+2020-12-18 16:35:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:35:37 - [MESSAGE][WARNING] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Packaging_labeling' is not visible after 30 second(s)
+
+2020-12-18 16:35:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Item Details Objects/Page_diagnostics/Page_diagnostics/span_Packaging_labeling"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Packaging_labeling' is present
+
+2020-12-18 16:35:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:35:37 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Packaging_labeling' is present
+
+2020-12-18 16:35:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:35:37 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:35:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:35:38 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:35:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_028" time="45.766" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_028" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:35:38 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_028: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_028
+
+2020-12-18 16:35:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:35:38 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:35:38 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:35:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:35:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:35:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:35:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:35:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:35:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:35:51 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:35:51 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:35:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:35:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/Page_diagnostics/span_HS_code"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_HS_code' is not visible after 30 second(s)
+
+2020-12-18 16:35:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:36:23 - [MESSAGE][WARNING] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_HS_code' is not visible after 30 second(s)
+
+2020-12-18 16:36:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Item Details Objects/Page_diagnostics/Page_diagnostics/span_HS_code"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_HS_code' is present
+
+2020-12-18 16:36:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:36:23 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_HS_code' is present
+
+2020-12-18 16:36:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:36:23 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:36:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:36:23 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:36:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_029" time="45.533" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_029" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:36:23 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_029: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_029
+
+2020-12-18 16:36:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:36:24 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:36:24 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:36:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:36:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:36:36 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:36:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:36:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:36:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:36:37 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:36:37 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:36:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:36:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/Page_diagnostics/span_Transportation"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Transportation' is not visible after 30 second(s)
+
+2020-12-18 16:36:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:37:08 - [MESSAGE][WARNING] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Transportation' is not visible after 30 second(s)
+
+2020-12-18 16:37:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Item Details Objects/Page_diagnostics/Page_diagnostics/span_Transportation"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Transportation' is present
+
+2020-12-18 16:37:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:37:08 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Transportation' is present
+
+2020-12-18 16:37:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:37:08 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:37:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:37:09 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:37:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_030" time="46.381" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_030" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:37:09 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_030: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_030
+
+2020-12-18 16:37:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:37:09 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:37:09 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:37:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:37:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:37:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:37:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:37:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:37:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:37:23 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:37:23 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:37:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:37:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/Page_diagnostics/span_Number_of_units_Unit_of_measurement"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Number_of_units_Unit_of_measurement' is not visible after 30 second(s)
+
+2020-12-18 16:37:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:37:54 - [MESSAGE][WARNING] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Number_of_units_Unit_of_measurement' is not visible after 30 second(s)
+
+2020-12-18 16:37:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Item Details Objects/Page_diagnostics/Page_diagnostics/span_Number_of_units_Unit_of_measurement"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Number_of_units_Unit_of_measurement' is present
+
+2020-12-18 16:37:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:37:55 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Number_of_units_Unit_of_measurement' is present
+
+2020-12-18 16:37:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:37:55 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:37:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:37:55 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:37:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_031" time="16.418" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_031" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:37:55 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_031: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_031
+
+2020-12-18 16:37:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:37:56 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:37:56 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:37:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:37:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:38:09 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:38:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:38:09 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:38:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:38:10 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:38:10 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:38:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:38:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/Page_diagnostics/span_WEIGHT_(KG)"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_WEIGHT_(KG)' is visible
+
+2020-12-18 16:38:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:38:11 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_WEIGHT_(KG)' is visible
+
+2020-12-18 16:38:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Item Details Objects/Page_diagnostics/Page_diagnostics/span_WEIGHT_(KG)"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_WEIGHT_(KG)' is present
+
+2020-12-18 16:38:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:38:11 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_WEIGHT_(KG)' is present
+
+2020-12-18 16:38:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:38:11 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:38:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:38:12 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:38:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_032" time="46.27" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_032" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:38:12 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_032: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_032
+
+2020-12-18 16:38:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:38:12 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:38:12 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:38:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:38:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:38:25 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:38:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:38:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:38:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:38:26 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:38:26 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:38:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:38:27 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/Page_diagnostics/span_Volume"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Volume' is not visible after 30 second(s)
+
+2020-12-18 16:38:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:38:57 - [MESSAGE][WARNING] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Volume' is not visible after 30 second(s)
+
+2020-12-18 16:38:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Item Details Objects/Page_diagnostics/Page_diagnostics/span_Volume"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Volume' is present
+
+2020-12-18 16:38:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:38:57 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Volume' is present
+
+2020-12-18 16:38:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:38:57 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:38:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:38:58 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:38:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_033" time="15.535" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_033" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:38:58 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_033: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_033
+
+2020-12-18 16:38:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:38:58 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:38:58 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:38:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:38:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:39:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:39:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:39:10 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:39:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:39:12 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:39:12 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:39:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:39:12 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/Page_diagnostics/span_Other_details"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Other_details' is visible
+
+2020-12-18 16:39:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:39:13 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Other_details' is visible
+
+2020-12-18 16:39:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Item Details Objects/Page_diagnostics/Page_diagnostics/span_Other_details"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Other_details' is present
+
+2020-12-18 16:39:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:39:13 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Other_details' is present
+
+2020-12-18 16:39:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:39:13 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:39:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:39:14 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:39:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_034" time="16.607" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_034" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:39:14 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_034: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_034
+
+2020-12-18 16:39:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:39:14 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:39:14 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:39:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:39:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:39:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:39:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:39:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:39:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:39:27 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:39:27 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:39:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:39:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/Page_diagnostics/span_Company_website"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Company_website' is visible
+
+2020-12-18 16:39:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:39:29 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Company_website' is visible
+
+2020-12-18 16:39:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Item Details Objects/Page_diagnostics/Page_diagnostics/span_Company_website"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Company_website' is present
+
+2020-12-18 16:39:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:39:30 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Company_website' is present
+
+2020-12-18 16:39:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:39:30 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:39:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:39:30 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:39:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_035" time="44.972" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_035" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:39:30 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_035: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_035
+
+2020-12-18 16:39:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:39:30 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:39:30 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:39:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:39:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:39:42 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:39:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:39:42 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:39:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:39:43 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:39:43 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:39:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:39:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/Page_diagnostics/span_Name_of_manufacturer"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Name_of_manufacturer' is not visible after 30 second(s)
+
+2020-12-18 16:39:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:40:14 - [MESSAGE][WARNING] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Name_of_manufacturer' is not visible after 30 second(s)
+
+2020-12-18 16:40:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Item Details Objects/Page_diagnostics/Page_diagnostics/span_Name_of_manufacturer"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Name_of_manufacturer' is present
+
+2020-12-18 16:40:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:40:15 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Name_of_manufacturer' is present
+
+2020-12-18 16:40:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:40:15 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:40:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:40:15 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:40:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_036" time="46.516" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_036" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:40:15 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_036: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_036
+
+2020-12-18 16:40:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:40:15 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:40:15 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:40:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:40:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:40:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:40:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:40:28 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:40:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:40:29 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:40:29 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:40:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:40:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/Page_diagnostics/span_Contact_person"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Contact_person' is not visible after 30 second(s)
+
+2020-12-18 16:40:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:41:01 - [MESSAGE][WARNING] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Contact_person' is not visible after 30 second(s)
+
+2020-12-18 16:41:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Item Details Objects/Page_diagnostics/Page_diagnostics/span_Contact_person"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Contact_person' is present
+
+2020-12-18 16:41:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:41:01 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Contact_person' is present
+
+2020-12-18 16:41:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:41:01 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:41:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:41:02 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:41:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_037" time="45.831" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_037" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:41:02 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_037: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_037
+
+2020-12-18 16:41:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:41:02 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:41:02 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:41:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:41:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:41:14 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:41:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:41:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:41:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:41:15 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:41:15 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:41:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:41:16 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/Page_diagnostics/span_Email_address"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Email_address' is not visible after 30 second(s)
+
+2020-12-18 16:41:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:41:47 - [MESSAGE][WARNING] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Email_address' is not visible after 30 second(s)
+
+2020-12-18 16:41:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Item Details Objects/Page_diagnostics/Page_diagnostics/span_Email_address"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Email_address' is present
+
+2020-12-18 16:41:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:41:47 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Email_address' is present
+
+2020-12-18 16:41:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:41:47 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:41:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:41:48 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:41:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_038" time="45.472" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_038" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:41:48 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_038: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_038
+
+2020-12-18 16:41:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:41:48 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:41:48 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:41:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:41:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:41:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:41:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:41:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:41:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:42:00 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:42:00 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:42:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:42:01 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/Page_diagnostics/span_Country_of_manufacturer"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Country_of_manufacturer' is not visible after 30 second(s)
+
+2020-12-18 16:42:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:42:32 - [MESSAGE][WARNING] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Country_of_manufacturer' is not visible after 30 second(s)
+
+2020-12-18 16:42:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Item Details Objects/Page_diagnostics/Page_diagnostics/span_Country_of_manufacturer"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Country_of_manufacturer' is present
+
+2020-12-18 16:42:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:42:32 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Country_of_manufacturer' is present
+
+2020-12-18 16:42:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:42:32 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:42:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:42:33 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:42:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_039" time="14.843" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_039" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:42:33 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_039: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_039
+
+2020-12-18 16:42:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:42:33 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:42:33 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:42:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:42:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:42:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:42:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:42:45 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:42:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:42:46 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:42:46 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:42:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:42:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/Page_diagnostics/span_Lead_Time_(days)"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Lead_Time_(days)' is visible
+
+2020-12-18 16:42:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:42:47 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Lead_Time_(days)' is visible
+
+2020-12-18 16:42:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Item Details Objects/Page_diagnostics/Page_diagnostics/span_Lead_Time_(days)"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Lead_Time_(days)' is present
+
+2020-12-18 16:42:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:42:47 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Lead_Time_(days)' is present
+
+2020-12-18 16:42:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:42:47 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:42:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:42:48 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:42:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_040" time="44.893" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_040" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:42:48 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_040: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_040
+
+2020-12-18 16:42:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:42:48 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:42:48 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:42:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:42:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:42:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:42:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:42:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:43:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:43:01 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:43:01 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:43:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:43:01 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/Page_diagnostics/span_Regulatory_approval"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Regulatory_approval' is not visible after 30 second(s)
+
+2020-12-18 16:43:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:43:32 - [MESSAGE][WARNING] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Regulatory_approval' is not visible after 30 second(s)
+
+2020-12-18 16:43:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Item Details Objects/Page_diagnostics/Page_diagnostics/span_Regulatory_approval"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Regulatory_approval' is present
+
+2020-12-18 16:43:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:43:32 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Regulatory_approval' is present
+
+2020-12-18 16:43:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:43:32 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:43:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:43:33 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:43:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_042" time="15.725" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_042" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:43:33 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_042: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_042
+
+2020-12-18 16:43:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:43:33 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:43:33 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:43:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:43:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:43:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:43:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:43:45 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:43:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:43:46 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:43:46 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:43:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:43:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Item Details Objects/Page_diagnostics/div_Price_Box"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Price_Box' is present
+
+2020-12-18 16:43:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:43:48 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Price_Box' is present
+
+2020-12-18 16:43:48 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Item Details Objects/Page_diagnostics/div_Price_Box"), STOP_ON_FAILURE): Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Price_Box' is NOT visible
+
+2020-12-18 16:43:48 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Price_Box' is NOT visible
+
+2020-12-18 16:43:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:43:48 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:43:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:43:48 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:43:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_043" time="28.765" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_043" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:43:49 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_043: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_043
+
+2020-12-18 16:43:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:43:49 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:43:49 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:43:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:43:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:44:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:44:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:44:02 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/a_Procure_from_other_Agencies"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Procure_from_other_Agencies' is visible
+
+2020-12-18 16:44:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:44:03 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Procure_from_other_Agencies' is visible
+
+2020-12-18 16:44:03 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Procure_from_other_Agencies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Procure_from_other_Agencies' is clicked on
+
+2020-12-18 16:44:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Procure_from_other_Agencies' is clicked on
+
+2020-12-18 16:44:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/LOGIN"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/LOGIN' successfully
+
+2020-12-18 16:44:05 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/LOGIN: Test Cases/Custom Item Details/UTILITIES/LOGIN
+
+2020-12-18 16:44:05 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Page_diagnostics/a_Sign_In_as_ Buyer")): Object: 'Object Repository/Login Page/Page_diagnostics/a_Sign_In_as_ Buyer' is clicked on
+
+2020-12-18 16:44:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_diagnostics/a_Sign_In_as_ Buyer' is clicked on
+
+2020-12-18 16:44:05 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Page_diagnostics/input_EmailUsername"), "admin"): Text 'admin' is set on object 'Object Repository/Login Page/Page_diagnostics/input_EmailUsername'
+
+2020-12-18 16:44:06 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login Page/Page_diagnostics/input_EmailUsername'
+
+2020-12-18 16:44:06 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Page_diagnostics/input_Password"), "Diagnostics123!"): Text 'Diagnostics123!' is set on object 'Object Repository/Login Page/Page_diagnostics/input_Password'
+
+2020-12-18 16:44:06 - [MESSAGE][PASSED] - Text 'Diagnostics123!' is set on object 'Object Repository/Login Page/Page_diagnostics/input_Password'
+
+2020-12-18 16:44:06 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Page_diagnostics/input_Login-Submit")): Object: 'Object Repository/Login Page/Page_diagnostics/input_Login-Submit' is clicked on
+
+2020-12-18 16:44:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_diagnostics/input_Login-Submit' is clicked on
+
+2020-12-18 16:44:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/LOGIN' successfully
+
+2020-12-18 16:44:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/ITEM_DETAIL_PAGE"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/ITEM_DETAIL_PAGE' successfully
+
+2020-12-18 16:44:13 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/ITEM_DETAIL_PAGE: Test Cases/Custom Item Details/UTILITIES/ITEM_DETAIL_PAGE
+
+2020-12-18 16:44:13 - [TEST_STEP][PASSED] - navigateToUrl("https://gdasandbox.test-arcadier.com/user/item/detail/gdaagencyfind/59fde34e-4dcb-44b5-bdcd-2bde962c0cb5"): Navigate to 'https://gdasandbox.test-arcadier.com/user/item/detail/gdaagencyfind/59fde34e-4dcb-44b5-bdcd-2bde962c0cb5' successfully
+
+2020-12-18 16:44:15 - [MESSAGE][PASSED] - Navigate to 'https://gdasandbox.test-arcadier.com/user/item/detail/gdaagencyfind/59fde34e-4dcb-44b5-bdcd-2bde962c0cb5' successfully
+
+2020-12-18 16:44:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/ITEM_DETAIL_PAGE' successfully
+
+2020-12-18 16:44:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Item Details Objects/Page_diagnostics/div_Price_Box"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Price_Box' is present
+
+2020-12-18 16:44:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:44:16 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Price_Box' is present
+
+2020-12-18 16:44:16 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Item Details Objects/Page_diagnostics/div_Price_Box"), STOP_ON_FAILURE): Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Price_Box' is NOT visible
+
+2020-12-18 16:44:17 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Price_Box' is NOT visible
+
+2020-12-18 16:44:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:44:17 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:44:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:44:17 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:44:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_041" time="46.407" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_041" status="PASSED">
+         <system-out><![CDATA[2020-12-18 16:44:17 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_041: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_041
+
+2020-12-18 16:44:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:44:17 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-12-18 16:44:17 - [TEST_STEP][PASSED] - openBrowser("https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c"): Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:44:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 16:44:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 16:44:30 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gdasandbox.test-arcadier.com/user/item/detail/liquid-culture/c4b73f6b-b0d2-4d13-8fb4-b719709a5e2c'
+
+2020-12-18 16:44:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-12-18 16:44:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:44:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:44:31 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-12-18 16:44:31 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:44:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-12-18 16:44:32 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/Page_diagnostics/span_Country_registration"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Country_registration' is not visible after 30 second(s)
+
+2020-12-18 16:44:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:45:03 - [MESSAGE][WARNING] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Country_registration' is not visible after 30 second(s)
+
+2020-12-18 16:45:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Item Details Objects/Page_diagnostics/Page_diagnostics/span_Country_registration"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Country_registration' is present
+
+2020-12-18 16:45:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-12-18 16:45:03 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Page_diagnostics/span_Country_registration' is present
+
+2020-12-18 16:45:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-12-18 16:45:03 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-12-18 16:45:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-12-18 16:45:04 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 16:45:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-12-18 16:25:23 - [TEST_SUITE][PASSED] - Item detail test: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_041]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

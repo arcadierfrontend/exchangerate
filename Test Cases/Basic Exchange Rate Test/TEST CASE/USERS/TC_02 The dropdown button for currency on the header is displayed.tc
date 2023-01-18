@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_02 The dropdown button for currency on the header is displayed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d8671116-a82d-4666-a24c-00033ae44e4a</testCaseGuid>
+</TestCaseEntity>

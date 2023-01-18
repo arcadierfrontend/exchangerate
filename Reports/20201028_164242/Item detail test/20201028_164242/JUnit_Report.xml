@@ -1,0 +1,1293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Item detail test" time="639.341" tests="18" failures="2" errors="0">
+   <testsuite name="Item detail test" tests="18" failures="2" errors="0" time="639.341" timestamp="2020-10-28 16:42:55" hostname="Lexoter - DESKTOP-IJBB9BE" id="Test Suites/Item detail test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="K:\\Work\\GitHub\\find-item-detail-test\\Reports\\20201028_164242\\Item detail test\\20201028_164242"/>
+         <property name="logFiles" value="K:\\Work\\GitHub\\find-item-detail-test\\Reports\\20201028_164242\\Item detail test\\20201028_164242\\execution0.log"/>
+         <property name="attachments" value="K:\\Work\\GitHub\\find-item-detail-test\\Reports\\20201028_164242\\Item detail test\\20201028_164242\\1603875193399.png, K:\\Work\\GitHub\\find-item-detail-test\\Reports\\20201028_164242\\Item detail test\\20201028_164242\\1603875214461.png"/>
+         <property name="hostName" value="Lexoter - DESKTOP-IJBB9BE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Firefox 81.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="253e29dd-4576-43dd-87b5-c5f6354fdfc9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_001" time="21.294" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_001" status="PASSED">
+         <system-out><![CDATA[2020-10-28 16:42:56 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_001: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_001
+
+2020-10-28 16:42:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-10-28 16:42:56 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-10-28 16:42:56 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f'
+
+2020-10-28 16:42:56 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 16:42:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 16:43:13 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f'
+
+2020-10-28 16:43:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-10-28 16:43:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/div.item-details"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/div.item-details' is visible
+
+2020-10-28 16:43:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 16:43:16 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div.item-details' is visible
+
+2020-10-28 16:43:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-10-28 16:43:16 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-10-28 16:43:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-28 16:43:17 - [MESSAGE][PASSED] - Browser is closed
+
+2020-10-28 16:43:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_002" time="21.791" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_002" status="PASSED">
+         <system-out><![CDATA[2020-10-28 16:43:17 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_002: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_002
+
+2020-10-28 16:43:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-10-28 16:43:17 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-10-28 16:43:17 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f'
+
+2020-10-28 16:43:17 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 16:43:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 16:43:36 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f'
+
+2020-10-28 16:43:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-10-28 16:43:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/div.item-detail-right"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/div.item-detail-right' is visible
+
+2020-10-28 16:43:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 16:43:38 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div.item-detail-right' is visible
+
+2020-10-28 16:43:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-10-28 16:43:38 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-10-28 16:43:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-28 16:43:39 - [MESSAGE][PASSED] - Browser is closed
+
+2020-10-28 16:43:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_003" time="19.979" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_003" status="PASSED">
+         <system-out><![CDATA[2020-10-28 16:43:39 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_003: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_003
+
+2020-10-28 16:43:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-10-28 16:43:39 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-10-28 16:43:39 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f'
+
+2020-10-28 16:43:39 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 16:43:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 16:43:56 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f'
+
+2020-10-28 16:43:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-10-28 16:43:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/img.Item"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/img.Item' is visible
+
+2020-10-28 16:43:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 16:43:58 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/img.Item' is visible
+
+2020-10-28 16:43:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-10-28 16:43:58 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-10-28 16:43:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-28 16:43:59 - [MESSAGE][PASSED] - Browser is closed
+
+2020-10-28 16:43:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_004" time="36.481" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_004" status="PASSED">
+         <system-out><![CDATA[2020-10-28 16:43:59 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_004: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_004
+
+2020-10-28 16:43:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-10-28 16:43:59 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-10-28 16:43:59 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f'
+
+2020-10-28 16:43:59 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 16:43:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 16:44:30 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f'
+
+2020-10-28 16:44:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-10-28 16:44:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/div.merchant-name2"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/div.merchant-name2' is visible
+
+2020-10-28 16:44:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 16:44:34 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div.merchant-name2' is visible
+
+2020-10-28 16:44:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-10-28 16:44:34 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-10-28 16:44:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-28 16:44:35 - [MESSAGE][PASSED] - Browser is closed
+
+2020-10-28 16:44:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_005" time="21.689" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_005" status="PASSED">
+         <system-out><![CDATA[2020-10-28 16:44:35 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_005: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_005
+
+2020-10-28 16:44:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-10-28 16:44:35 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-10-28 16:44:35 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f'
+
+2020-10-28 16:44:35 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 16:44:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 16:44:53 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f'
+
+2020-10-28 16:44:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-10-28 16:44:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/Merchant_name"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/Merchant_name' is visible
+
+2020-10-28 16:44:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 16:44:56 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Merchant_name' is visible
+
+2020-10-28 16:44:56 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Item Details Objects/Page_diagnostics/Merchant_name")): Object 'Object Repository/Item Details Objects/Page_diagnostics/Merchant_name' is clickable
+
+2020-10-28 16:44:56 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/Merchant_name' is clickable
+
+2020-10-28 16:44:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-10-28 16:44:56 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-10-28 16:44:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-28 16:44:57 - [MESSAGE][PASSED] - Browser is closed
+
+2020-10-28 16:44:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_006" time="22.421" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_006" status="PASSED">
+         <system-out><![CDATA[2020-10-28 16:44:57 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_006: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_006
+
+2020-10-28 16:44:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-10-28 16:44:57 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-10-28 16:44:57 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f'
+
+2020-10-28 16:44:57 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 16:44:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 16:45:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f'
+
+2020-10-28 16:45:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-10-28 16:45:16 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/a_Contact_seller_btn"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Contact_seller_btn' is visible
+
+2020-10-28 16:45:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 16:45:18 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Contact_seller_btn' is visible
+
+2020-10-28 16:45:18 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Item Details Objects/Page_diagnostics/a_Contact_seller_btn")): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Contact_seller_btn' is clickable
+
+2020-10-28 16:45:18 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Contact_seller_btn' is clickable
+
+2020-10-28 16:45:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Item Details Objects/Page_diagnostics/a_Contact_seller_btn"), "CONTACT SELLER"): Actual text and expected text of test object 'Object Repository/Item Details Objects/Page_diagnostics/a_Contact_seller_btn' are matched.
+
+2020-10-28 16:45:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Item Details Objects/Page_diagnostics/a_Contact_seller_btn' are matched.
+
+2020-10-28 16:45:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-10-28 16:45:19 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-10-28 16:45:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-28 16:45:19 - [MESSAGE][PASSED] - Browser is closed
+
+2020-10-28 16:45:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_007" time="44.197" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_007" status="PASSED">
+         <system-out><![CDATA[2020-10-28 16:45:19 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_007: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_007
+
+2020-10-28 16:45:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-10-28 16:45:20 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-10-28 16:45:20 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f'
+
+2020-10-28 16:45:20 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 16:45:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 16:45:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f'
+
+2020-10-28 16:45:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-10-28 16:45:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/div.item-detail-left"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/div.item-detail-left' is visible
+
+2020-10-28 16:45:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 16:46:03 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div.item-detail-left' is visible
+
+2020-10-28 16:46:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-10-28 16:46:03 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-10-28 16:46:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-28 16:46:04 - [MESSAGE][PASSED] - Browser is closed
+
+2020-10-28 16:46:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_008" time="149.89" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_008" status="PASSED">
+         <system-out><![CDATA[2020-10-28 16:46:04 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_008: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_008
+
+2020-10-28 16:46:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-10-28 16:46:04 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-10-28 16:46:04 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f'
+
+2020-10-28 16:46:04 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 16:46:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 16:48:30 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f'
+
+2020-10-28 16:48:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-10-28 16:48:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/div_itemDetailName"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/div_itemDetailName' is visible
+
+2020-10-28 16:48:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 16:48:32 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div_itemDetailName' is visible
+
+2020-10-28 16:48:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-10-28 16:48:32 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-10-28 16:48:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-28 16:48:33 - [MESSAGE][PASSED] - Browser is closed
+
+2020-10-28 16:48:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_009" time="75.316" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_009" status="PASSED">
+         <system-out><![CDATA[2020-10-28 16:48:33 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_009: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_009
+
+2020-10-28 16:48:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-10-28 16:48:34 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-10-28 16:48:34 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f'
+
+2020-10-28 16:48:34 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 16:48:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 16:49:39 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f'
+
+2020-10-28 16:49:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-10-28 16:49:39 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/div.item-id"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/div.item-id' is visible
+
+2020-10-28 16:49:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 16:49:48 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div.item-id' is visible
+
+2020-10-28 16:49:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-10-28 16:49:48 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-10-28 16:49:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-28 16:49:49 - [MESSAGE][PASSED] - Browser is closed
+
+2020-10-28 16:49:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_010" time="33.835" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_010" status="PASSED">
+         <system-out><![CDATA[2020-10-28 16:49:49 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_010: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_010
+
+2020-10-28 16:49:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-10-28 16:49:49 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-10-28 16:49:49 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f'
+
+2020-10-28 16:49:49 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 16:49:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 16:50:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f'
+
+2020-10-28 16:50:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-10-28 16:50:19 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/div.new-button-area"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/div.new-button-area' is visible
+
+2020-10-28 16:50:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 16:50:22 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div.new-button-area' is visible
+
+2020-10-28 16:50:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-10-28 16:50:22 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-10-28 16:50:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-28 16:50:23 - [MESSAGE][PASSED] - Browser is closed
+
+2020-10-28 16:50:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_011" time="62.936" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_011" status="PASSED">
+         <system-out><![CDATA[2020-10-28 16:50:23 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_011: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_011
+
+2020-10-28 16:50:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-10-28 16:50:23 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-10-28 16:50:23 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f'
+
+2020-10-28 16:50:23 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 16:50:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 16:50:53 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f'
+
+2020-10-28 16:50:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-10-28 16:50:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/div.item-price-text"), 0): Web element with id: 'Object Repository/Item Details Objects/Page_diagnostics/div.item-price-text' located by 'div.item-price-text' not found
+
+2020-10-28 16:50:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 16:51:25 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: div.item-price-text'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-10-28 16:51:25 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Item Details Objects/Page_diagnostics/div.item-price-text' located by 'div.item-price-text' not found
+
+2020-10-28 16:51:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-10-28 16:51:25 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-10-28 16:51:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-28 16:51:25 - [MESSAGE][PASSED] - Browser is closed
+
+2020-10-28 16:51:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_012" time="26.609" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_012" status="PASSED">
+         <system-out><![CDATA[2020-10-28 16:51:26 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_012: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_012
+
+2020-10-28 16:51:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-10-28 16:51:26 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-10-28 16:51:26 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f'
+
+2020-10-28 16:51:26 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 16:51:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 16:51:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f'
+
+2020-10-28 16:51:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-10-28 16:51:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/btn_Procure_from_other_Agencies"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/btn_Procure_from_other_Agencies' is visible
+
+2020-10-28 16:51:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 16:51:49 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/btn_Procure_from_other_Agencies' is visible
+
+2020-10-28 16:51:49 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Item Details Objects/Page_diagnostics/btn_Procure_from_other_Agencies")): Object 'Object Repository/Item Details Objects/Page_diagnostics/btn_Procure_from_other_Agencies' is clickable
+
+2020-10-28 16:51:49 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/btn_Procure_from_other_Agencies' is clickable
+
+2020-10-28 16:51:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Item Details Objects/Page_diagnostics/btn_Procure_from_other_Agencies"), "PROCURE FROM OTHER AGENCIES"): Actual text and expected text of test object 'Object Repository/Item Details Objects/Page_diagnostics/btn_Procure_from_other_Agencies' are matched.
+
+2020-10-28 16:51:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Item Details Objects/Page_diagnostics/btn_Procure_from_other_Agencies' are matched.
+
+2020-10-28 16:51:49 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-10-28 16:51:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-10-28 16:51:49 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/btn_Procure_from_other_Agencies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/btn_Procure_from_other_Agencies' is clicked on
+
+2020-10-28 16:51:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/btn_Procure_from_other_Agencies' is clicked on
+
+2020-10-28 16:51:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-10-28 16:51:51 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-10-28 16:51:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-28 16:51:52 - [MESSAGE][PASSED] - Browser is closed
+
+2020-10-28 16:51:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_013" time="15.457" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_013" status="PASSED">
+         <system-out><![CDATA[2020-10-28 16:51:52 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_013: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_013
+
+2020-10-28 16:51:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-10-28 16:51:52 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-10-28 16:51:52 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f'
+
+2020-10-28 16:51:52 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 16:51:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 16:52:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f'
+
+2020-10-28 16:52:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-10-28 16:52:05 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Item Details Objects/Page_diagnostics/btn_Procure_grey"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/btn_Procure_grey' is present
+
+2020-10-28 16:52:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 16:52:07 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/btn_Procure_grey' is present
+
+2020-10-28 16:52:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-10-28 16:52:07 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-10-28 16:52:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-28 16:52:08 - [MESSAGE][PASSED] - Browser is closed
+
+2020-10-28 16:52:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_014" time="17.818" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_014" status="PASSED">
+         <system-out><![CDATA[2020-10-28 16:52:08 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_014: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_014
+
+2020-10-28 16:52:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-10-28 16:52:08 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-10-28 16:52:08 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f'
+
+2020-10-28 16:52:08 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 16:52:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 16:52:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f'
+
+2020-10-28 16:52:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-10-28 16:52:20 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/div_Description"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Description' is visible
+
+2020-10-28 16:52:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 16:52:24 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Description' is visible
+
+2020-10-28 16:52:24 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Item Details Objects/Page_diagnostics/div_Description")): Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Description' is clickable
+
+2020-10-28 16:52:24 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Description' is clickable
+
+2020-10-28 16:52:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Item Details Objects/Page_diagnostics/div_Description"), "Description"): Actual text and expected text of test object 'Object Repository/Item Details Objects/Page_diagnostics/div_Description' are matched.
+
+2020-10-28 16:52:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Item Details Objects/Page_diagnostics/div_Description' are matched.
+
+2020-10-28 16:52:24 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/div_Description")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/div_Description' is clicked on
+
+2020-10-28 16:52:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/div_Description' is clicked on
+
+2020-10-28 16:52:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-10-28 16:52:25 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-10-28 16:52:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-28 16:52:25 - [MESSAGE][PASSED] - Browser is closed
+
+2020-10-28 16:52:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_015" time="14.248" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_015" status="PASSED">
+         <system-out><![CDATA[2020-10-28 16:52:25 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_015: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_015
+
+2020-10-28 16:52:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-10-28 16:52:26 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-10-28 16:52:26 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f'
+
+2020-10-28 16:52:26 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 16:52:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 16:52:36 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f'
+
+2020-10-28 16:52:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-10-28 16:52:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/div_Technical Specifications"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Technical Specifications' is visible
+
+2020-10-28 16:52:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 16:52:38 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Technical Specifications' is visible
+
+2020-10-28 16:52:38 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Item Details Objects/Page_diagnostics/div_Technical Specifications")): Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Technical Specifications' is clickable
+
+2020-10-28 16:52:38 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Technical Specifications' is clickable
+
+2020-10-28 16:52:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Item Details Objects/Page_diagnostics/div_Technical Specifications"), "Technical Specifications"): Actual text and expected text of test object 'Object Repository/Item Details Objects/Page_diagnostics/div_Technical Specifications' are matched.
+
+2020-10-28 16:52:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Item Details Objects/Page_diagnostics/div_Technical Specifications' are matched.
+
+2020-10-28 16:52:38 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/div_Technical Specifications")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/div_Technical Specifications' is clicked on
+
+2020-10-28 16:52:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/div_Technical Specifications' is clicked on
+
+2020-10-28 16:52:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-10-28 16:52:39 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-10-28 16:52:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-28 16:52:40 - [MESSAGE][PASSED] - Browser is closed
+
+2020-10-28 16:52:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_016" time="16.5" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_016" status="PASSED">
+         <system-out><![CDATA[2020-10-28 16:52:40 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_016: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_016
+
+2020-10-28 16:52:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-10-28 16:52:40 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-10-28 16:52:40 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f'
+
+2020-10-28 16:52:40 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 16:52:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 16:52:51 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f'
+
+2020-10-28 16:52:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-10-28 16:52:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-10-28 16:52:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 16:52:53 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is visible
+
+2020-10-28 16:52:53 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-10-28 16:52:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-10-28 16:52:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/div_Product_Attributes"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Product_Attributes' is visible
+
+2020-10-28 16:52:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 16:52:54 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Product_Attributes' is visible
+
+2020-10-28 16:52:54 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Item Details Objects/Page_diagnostics/div_Product_Attributes")): Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Product_Attributes' is clickable
+
+2020-10-28 16:52:54 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Product_Attributes' is clickable
+
+2020-10-28 16:52:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Item Details Objects/Page_diagnostics/div_Product_Attributes"), "Product Attributes"): Actual text and expected text of test object 'Object Repository/Item Details Objects/Page_diagnostics/div_Product_Attributes' are matched.
+
+2020-10-28 16:52:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Item Details Objects/Page_diagnostics/div_Product_Attributes' are matched.
+
+2020-10-28 16:52:55 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/div_Product_Attributes")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/div_Product_Attributes' is clicked on
+
+2020-10-28 16:52:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/div_Product_Attributes' is clicked on
+
+2020-10-28 16:52:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/CLOSE_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully
+
+2020-10-28 16:52:55 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER: Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER
+
+2020-10-28 16:52:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-28 16:52:56 - [MESSAGE][PASSED] - Browser is closed
+
+2020-10-28 16:52:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/CLOSE_BROWSER' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_017" time="16.849" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_017" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_017 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Item Details Objects/Page_diagnostics/div_Manufacture_Information'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC_DETAILS_UI_017.run(TC_DETAILS_UI_017:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1603874562412.run(TempTestSuite1603874562412.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: Element &lt;div class=&quot;desc-title&quot;> is not clickable at point (826,873) because another element &lt;div id=&quot;fixntf_popup_cookies_btm_fixmsg&quot; class=&quot;fixntf-sec&quot;> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-IJBB9BE', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200930150533, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 16536, moz:profile: C:\Users\Lexoter\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fad64ed5-b025-436e-9050-6f6913defcbc
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-10-28 16:52:56 - [TEST_CASE][FAILED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_017: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_017 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Item Details Objects/Page_diagnostics/div_Manufacture_Information'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC_DETAILS_UI_017.run(TC_DETAILS_UI_017:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1603874562412.run(TempTestSuite1603874562412.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: Element <div class="desc-title"> is not clickable at point (826,873) because another element <div id="fixntf_popup_cookies_btm_fixmsg" class="fixntf-sec"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-IJBB9BE', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200930150533, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 16536, moz:profile: C:\Users\Lexoter\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fad64ed5-b025-436e-9050-6f6913defcbc
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-10-28 16:52:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-10-28 16:52:56 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-10-28 16:52:56 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f'
+
+2020-10-28 16:52:56 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 16:52:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 16:53:09 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f'
+
+2020-10-28 16:53:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-10-28 16:53:09 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/div_Manufacture_Information"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Manufacture_Information' is visible
+
+2020-10-28 16:53:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 16:53:12 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Manufacture_Information' is visible
+
+2020-10-28 16:53:12 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Item Details Objects/Page_diagnostics/div_Manufacture_Information")): Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Manufacture_Information' is clickable
+
+2020-10-28 16:53:12 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Manufacture_Information' is clickable
+
+2020-10-28 16:53:12 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-10-28 16:53:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-10-28 16:53:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Item Details Objects/Page_diagnostics/div_Manufacture_Information"), "Manufacture Information"): Actual text and expected text of test object 'Object Repository/Item Details Objects/Page_diagnostics/div_Manufacture_Information' are matched.
+
+2020-10-28 16:53:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Item Details Objects/Page_diagnostics/div_Manufacture_Information' are matched.
+
+2020-10-28 16:53:13 - [TEST_STEP][FAILED] - click(findTestObject("Item Details Objects/Page_diagnostics/div_Manufacture_Information")): Unable to click on object 'Object Repository/Item Details Objects/Page_diagnostics/div_Manufacture_Information' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Item Details Objects/Page_diagnostics/div_Manufacture_Information'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC_DETAILS_UI_017.run(TC_DETAILS_UI_017:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1603874562412.run(TempTestSuite1603874562412.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: Element <div class="desc-title"> is not clickable at point (826,873) because another element <div id="fixntf_popup_cookies_btm_fixmsg" class="fixntf-sec"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-IJBB9BE', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200930150533, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 16536, moz:profile: C:\Users\Lexoter\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fad64ed5-b025-436e-9050-6f6913defcbc
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1601292583675.run(Script1601292583675.groovy:28)
+	... 13 more
+)
+
+2020-10-28 16:53:13 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Item Details Objects/Page_diagnostics/div_Manufacture_Information' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Item Details Objects/Page_diagnostics/div_Manufacture_Information'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC_DETAILS_UI_017.run(TC_DETAILS_UI_017:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1603874562412.run(TempTestSuite1603874562412.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: Element <div class="desc-title"> is not clickable at point (826,873) because another element <div id="fixntf_popup_cookies_btm_fixmsg" class="fixntf-sec"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-IJBB9BE', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200930150533, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 16536, moz:profile: C:\Users\Lexoter\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fad64ed5-b025-436e-9050-6f6913defcbc
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1601292583675.run(Script1601292583675.groovy:28)
+	... 13 more
+)
+[[ATTACHMENT|K:\\Work\\GitHub\\find-item-detail-test\\Reports\\20201028_164242\\Item detail test\\20201028_164242\\1603875193399.png]]]]></system-out>
+         <system-err><![CDATA[2020-10-28 16:52:56 - [TEST_CASE][FAILED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_017: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_017 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Item Details Objects/Page_diagnostics/div_Manufacture_Information'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC_DETAILS_UI_017.run(TC_DETAILS_UI_017:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1603874562412.run(TempTestSuite1603874562412.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: Element <div class="desc-title"> is not clickable at point (826,873) because another element <div id="fixntf_popup_cookies_btm_fixmsg" class="fixntf-sec"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-IJBB9BE', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200930150533, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 16536, moz:profile: C:\Users\Lexoter\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fad64ed5-b025-436e-9050-6f6913defcbc
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_018" time="21.047" classname="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_018" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_018 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Item Details Objects/Page_diagnostics/div_Regulatory_Approval'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC_DETAILS_UI_018.run(TC_DETAILS_UI_018:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1603874562412.run(TempTestSuite1603874562412.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: Element &lt;div class=&quot;desc-title&quot;> is not clickable at point (826,873) because another element &lt;div id=&quot;fixntf_popup_cookies_btm_fixmsg&quot; class=&quot;fixntf-sec&quot;> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-IJBB9BE', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200930150533, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 17704, moz:profile: C:\Users\Lexoter\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 253e29dd-4576-43dd-87b5-c5f6354fdfc9
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-10-28 16:53:13 - [TEST_CASE][FAILED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_018: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_018 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Item Details Objects/Page_diagnostics/div_Regulatory_Approval'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC_DETAILS_UI_018.run(TC_DETAILS_UI_018:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1603874562412.run(TempTestSuite1603874562412.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: Element <div class="desc-title"> is not clickable at point (826,873) because another element <div id="fixntf_popup_cookies_btm_fixmsg" class="fixntf-sec"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-IJBB9BE', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200930150533, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 17704, moz:profile: C:\Users\Lexoter\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 253e29dd-4576-43dd-87b5-c5f6354fdfc9
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-10-28 16:53:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Custom Item Details/UTILITIES/OPEN_BROWSER"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-10-28 16:53:13 - [TEST_CASE][PASSED] - Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER: Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER
+
+2020-10-28 16:53:13 - [TEST_STEP][PASSED] - openBrowser("https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f"): Browser is opened with url: 'https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f'
+
+2020-10-28 16:53:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-28 16:53:14 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 16:53:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 16:53:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://diagnostics.staging.arcadier.io/user/item/detail/operation-1-3-genie-fast-hiv1-2-w-o-accessories-kit-25/0e59c734-a537-4021-a2aa-5148339ecd7f'
+
+2020-10-28 16:53:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Custom Item Details/UTILITIES/OPEN_BROWSER' successfully
+
+2020-10-28 16:53:31 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Item Details Objects/Page_diagnostics/div_Regulatory_Approval"), 0): Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Regulatory_Approval' is visible
+
+2020-10-28 16:53:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 16:53:33 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Regulatory_Approval' is visible
+
+2020-10-28 16:53:33 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Item Details Objects/Page_diagnostics/div_Regulatory_Approval")): Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Regulatory_Approval' is clickable
+
+2020-10-28 16:53:33 - [MESSAGE][PASSED] - Object 'Object Repository/Item Details Objects/Page_diagnostics/div_Regulatory_Approval' is clickable
+
+2020-10-28 16:53:33 - [TEST_STEP][PASSED] - click(findTestObject("Item Details Objects/Page_diagnostics/a_Accept Cookies")): Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-10-28 16:53:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Item Details Objects/Page_diagnostics/a_Accept Cookies' is clicked on
+
+2020-10-28 16:53:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Item Details Objects/Page_diagnostics/div_Regulatory_Approval"), "Regulatory Approval"): Actual text and expected text of test object 'Object Repository/Item Details Objects/Page_diagnostics/div_Regulatory_Approval' are matched.
+
+2020-10-28 16:53:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Item Details Objects/Page_diagnostics/div_Regulatory_Approval' are matched.
+
+2020-10-28 16:53:34 - [TEST_STEP][FAILED] - click(findTestObject("Item Details Objects/Page_diagnostics/div_Regulatory_Approval")): Unable to click on object 'Object Repository/Item Details Objects/Page_diagnostics/div_Regulatory_Approval' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Item Details Objects/Page_diagnostics/div_Regulatory_Approval'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC_DETAILS_UI_018.run(TC_DETAILS_UI_018:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1603874562412.run(TempTestSuite1603874562412.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: Element <div class="desc-title"> is not clickable at point (826,873) because another element <div id="fixntf_popup_cookies_btm_fixmsg" class="fixntf-sec"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-IJBB9BE', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200930150533, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 17704, moz:profile: C:\Users\Lexoter\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 253e29dd-4576-43dd-87b5-c5f6354fdfc9
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1601293142109.run(Script1601293142109.groovy:28)
+	... 13 more
+)
+
+2020-10-28 16:53:34 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Item Details Objects/Page_diagnostics/div_Regulatory_Approval' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Item Details Objects/Page_diagnostics/div_Regulatory_Approval'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC_DETAILS_UI_018.run(TC_DETAILS_UI_018:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1603874562412.run(TempTestSuite1603874562412.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: Element <div class="desc-title"> is not clickable at point (826,873) because another element <div id="fixntf_popup_cookies_btm_fixmsg" class="fixntf-sec"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-IJBB9BE', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200930150533, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 17704, moz:profile: C:\Users\Lexoter\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 253e29dd-4576-43dd-87b5-c5f6354fdfc9
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1601293142109.run(Script1601293142109.groovy:28)
+	... 13 more
+)
+[[ATTACHMENT|K:\\Work\\GitHub\\find-item-detail-test\\Reports\\20201028_164242\\Item detail test\\20201028_164242\\1603875214461.png]]]]></system-out>
+         <system-err><![CDATA[2020-10-28 16:53:13 - [TEST_CASE][FAILED] - Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_018: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_018 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Item Details Objects/Page_diagnostics/div_Regulatory_Approval'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC_DETAILS_UI_018.run(TC_DETAILS_UI_018:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1603874562412.run(TempTestSuite1603874562412.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: Element <div class="desc-title"> is not clickable at point (826,873) because another element <div id="fixntf_popup_cookies_btm_fixmsg" class="fixntf-sec"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-IJBB9BE', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200930150533, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 17704, moz:profile: C:\Users\Lexoter\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 253e29dd-4576-43dd-87b5-c5f6354fdfc9
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-10-28 16:42:55 - [TEST_SUITE][FAILED] - Item detail test: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_017 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Item Details Objects/Page_diagnostics/div_Manufacture_Information'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC_DETAILS_UI_017.run(TC_DETAILS_UI_017:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1603874562412.run(TempTestSuite1603874562412.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: Element <div class="desc-title"> is not clickable at point (826,873) because another element <div id="fixntf_popup_cookies_btm_fixmsg" class="fixntf-sec"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-IJBB9BE', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200930150533, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 16536, moz:profile: C:\Users\Lexoter\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fad64ed5-b025-436e-9050-6f6913defcbc
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-10-28 16:42:55 - [TEST_SUITE][FAILED] - Item detail test: Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_017 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Item Details Objects/Page_diagnostics/div_Manufacture_Information'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC_DETAILS_UI_017.run(TC_DETAILS_UI_017:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1603874562412.run(TempTestSuite1603874562412.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: Element <div class="desc-title"> is not clickable at point (826,873) because another element <div id="fixntf_popup_cookies_btm_fixmsg" class="fixntf-sec"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-IJBB9BE', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200930150533, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 16536, moz:profile: C:\Users\Lexoter\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fad64ed5-b025-436e-9050-6f6913defcbc
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

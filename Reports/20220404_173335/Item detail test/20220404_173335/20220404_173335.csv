@@ -1,0 +1,270 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Item detail test,Chrome 99.0.4844.84,,,2022-04-04 17:33:43,2022-04-04 18:09:02,35m - 19.264s,FAILED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_001,Chrome 99.0.4844.84,,,2022-04-04 17:33:43,2022-04-04 17:34:40,56.676s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:33:43,2022-04-04 17:34:37,53.636s,PASSED
+"waitForElementVisible(findTestObject(""Item Details Objects/Page_diagnostics/div.item-details""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:34:37,2022-04-04 17:34:39,1.939s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:34:39,2022-04-04 17:34:40,0.875s,PASSED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_002,Chrome 99.0.4844.84,,,2022-04-04 17:34:40,2022-04-04 17:34:58,18.567s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:34:40,2022-04-04 17:34:56,16.186s,PASSED
+"waitForElementVisible(findTestObject(""Item Details Objects/Page_diagnostics/div.item-detail-right""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:34:56,2022-04-04 17:34:57,1.475s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:34:57,2022-04-04 17:34:58,0.730s,PASSED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_003,Chrome 99.0.4844.84,,,2022-04-04 17:34:58,2022-04-04 17:35:15,17.190s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:34:58,2022-04-04 17:35:13,14.831s,PASSED
+"waitForElementVisible(findTestObject(""Item Details Objects/Page_diagnostics/img.Item""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:35:13,2022-04-04 17:35:15,1.471s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:35:15,2022-04-04 17:35:15,0.740s,PASSED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_004,Chrome 99.0.4844.84,,,2022-04-04 17:35:15,2022-04-04 17:35:33,17.875s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:35:15,2022-04-04 17:35:31,15.488s,PASSED
+"waitForElementVisible(findTestObject(""Item Details Objects/Page_diagnostics/div.merchant-name2""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:35:31,2022-04-04 17:35:32,1.489s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:35:32,2022-04-04 17:35:33,0.752s,PASSED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_005,Chrome 99.0.4844.84,,,2022-04-04 17:35:33,2022-04-04 17:36:51,1m - 18.112s,FAILED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:35:33,2022-04-04 17:35:49,15.444s,PASSED
+"waitForElementVisible(findTestObject(""Item Details Objects/Page_diagnostics/Merchant_name""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:35:49,2022-04-04 17:36:20,31.112s,PASSED
+"verifyElementClickable(findTestObject(""Item Details Objects/Page_diagnostics/Merchant_name""))",Chrome 99.0.4844.84,,,2022-04-04 17:36:20,2022-04-04 17:36:51,31.418s,FAILED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_006,Chrome 99.0.4844.84,,,2022-04-04 17:36:51,2022-04-04 17:37:12,20.444s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:36:51,2022-04-04 17:37:09,17.408s,PASSED
+"waitForElementVisible(findTestObject(""Item Details Objects/Page_diagnostics/a_Contact_seller_btn""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:37:09,2022-04-04 17:37:10,1.472s,PASSED
+"verifyElementClickable(findTestObject(""Item Details Objects/Page_diagnostics/a_Contact_seller_btn""))",Chrome 99.0.4844.84,,,2022-04-04 17:37:10,2022-04-04 17:37:11,0.313s,PASSED
+"verifyElementText(findTestObject(""Item Details Objects/Page_diagnostics/a_Contact_seller_btn""), ""ASK THE SELLER"")",Chrome 99.0.4844.84,,,2022-04-04 17:37:11,2022-04-04 17:37:11,0.347s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:37:11,2022-04-04 17:37:12,0.742s,PASSED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_007,Chrome 99.0.4844.84,,,2022-04-04 17:37:12,2022-04-04 17:37:29,17.297s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:37:12,2022-04-04 17:37:27,14.843s,PASSED
+"waitForElementVisible(findTestObject(""Item Details Objects/Page_diagnostics/div.item-detail-left""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:37:27,2022-04-04 17:37:28,1.576s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:37:28,2022-04-04 17:37:29,0.741s,PASSED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_008,Chrome 99.0.4844.84,,,2022-04-04 17:37:29,2022-04-04 17:37:47,18.219s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:37:29,2022-04-04 17:37:45,15.789s,PASSED
+"waitForElementVisible(findTestObject(""Item Details Objects/Page_diagnostics/div_itemDetailName""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:37:45,2022-04-04 17:37:47,1.566s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:37:47,2022-04-04 17:37:47,0.728s,PASSED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_009,Chrome 99.0.4844.84,,,2022-04-04 17:37:47,2022-04-04 17:38:36,48.651s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:37:47,2022-04-04 17:38:03,15.739s,PASSED
+"waitForElementVisible(findTestObject(""Item Details Objects/Page_diagnostics/div.item-id""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:38:03,2022-04-04 17:38:35,32.029s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:38:35,2022-04-04 17:38:36,0.750s,PASSED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_010,Chrome 99.0.4844.84,,,2022-04-04 17:38:36,2022-04-04 17:38:54,18.444s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:38:36,2022-04-04 17:38:52,16.033s,PASSED
+"waitForElementVisible(findTestObject(""Item Details Objects/Page_diagnostics/div.new-button-area""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:38:52,2022-04-04 17:38:54,1.578s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:38:54,2022-04-04 17:38:54,0.702s,PASSED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_011,Chrome 99.0.4844.84,,,2022-04-04 17:38:54,2022-04-04 17:39:43,48.666s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:38:55,2022-04-04 17:39:11,16.517s,PASSED
+"waitForElementVisible(findTestObject(""Item Details Objects/Page_diagnostics/div.item-price-text""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:39:11,2022-04-04 17:39:42,31.310s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:39:42,2022-04-04 17:39:43,0.707s,PASSED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_012,Chrome 99.0.4844.84,,,2022-04-04 17:39:43,2022-04-04 17:40:02,19.437s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:39:43,2022-04-04 17:39:59,15.757s,PASSED
+"waitForElementVisible(findTestObject(""Item Details Objects/Page_diagnostics/a_Procure_Directly_From_Seller""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:39:59,2022-04-04 17:40:00,1.473s,PASSED
+"verifyElementClickable(findTestObject(""Item Details Objects/Page_diagnostics/a_Procure_Directly_From_Seller""))",Chrome 99.0.4844.84,,,2022-04-04 17:40:00,2022-04-04 17:40:01,0.301s,PASSED
+"click(findTestObject(""Item Details Objects/Page_diagnostics/a_Procure_Directly_From_Seller""))",Chrome 99.0.4844.84,,,2022-04-04 17:40:01,2022-04-04 17:40:02,1.029s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:40:02,2022-04-04 17:40:02,0.730s,PASSED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_013,Chrome 99.0.4844.84,,,2022-04-04 17:40:02,2022-04-04 17:40:22,19.180s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:40:03,2022-04-04 17:40:19,16.753s,PASSED
+"waitForElementPresent(findTestObject(""Item Details Objects/Page_diagnostics/btn_Procure_grey""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:40:19,2022-04-04 17:40:21,1.553s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:40:21,2022-04-04 17:40:22,0.726s,PASSED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_014,Chrome 99.0.4844.84,,,2022-04-04 17:40:22,2022-04-04 17:40:40,17.898s,FAILED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:40:22,2022-04-04 17:40:37,15.263s,PASSED
+"waitForElementVisible(findTestObject(""Staging Objects/Page_diagnostics/div_Description""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:40:37,2022-04-04 17:40:39,1.594s,PASSED
+"verifyElementClickable(findTestObject(""Staging Objects/Page_diagnostics/div_Description""))",Chrome 99.0.4844.84,,,2022-04-04 17:40:39,2022-04-04 17:40:39,0.304s,PASSED
+"verifyElementText(findTestObject(""Staging Objects/Page_diagnostics/div_Description""), ""Description"")",Chrome 99.0.4844.84,,,2022-04-04 17:40:39,2022-04-04 17:40:40,0.604s,FAILED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_015,Chrome 99.0.4844.84,,,2022-04-04 17:40:40,2022-04-04 17:40:58,18.655s,FAILED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:40:40,2022-04-04 17:40:56,16.148s,PASSED
+"waitForElementVisible(findTestObject(""Staging Objects/Page_diagnostics/div_Technical Specifications""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:40:56,2022-04-04 17:40:57,1.457s,PASSED
+"verifyElementClickable(findTestObject(""Staging Objects/Page_diagnostics/div_Technical Specifications""))",Chrome 99.0.4844.84,,,2022-04-04 17:40:57,2022-04-04 17:40:58,0.302s,PASSED
+"verifyElementText(findTestObject(""Staging Objects/Page_diagnostics/div_Technical Specifications""), ""Technical Specifications"")",Chrome 99.0.4844.84,,,2022-04-04 17:40:58,2022-04-04 17:40:58,0.611s,FAILED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_016,Chrome 99.0.4844.84,,,2022-04-04 17:40:58,2022-04-04 17:41:17,18.608s,FAILED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:40:58,2022-04-04 17:41:14,16.077s,PASSED
+"waitForElementVisible(findTestObject(""Staging Objects/Page_diagnostics/div_Product Attributes""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:41:14,2022-04-04 17:41:16,1.496s,PASSED
+"verifyElementClickable(findTestObject(""Staging Objects/Page_diagnostics/div_Product Attributes""))",Chrome 99.0.4844.84,,,2022-04-04 17:41:16,2022-04-04 17:41:16,0.305s,PASSED
+"verifyElementText(findTestObject(""Staging Objects/Page_diagnostics/div_Product Attributes""), ""Product Attributes"")",Chrome 99.0.4844.84,,,2022-04-04 17:41:16,2022-04-04 17:41:17,0.586s,FAILED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_017,Chrome 99.0.4844.84,,,2022-04-04 17:41:17,2022-04-04 17:41:37,19.917s,FAILED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:41:17,2022-04-04 17:41:34,17.389s,PASSED
+"waitForElementVisible(findTestObject(""Staging Objects/Page_diagnostics/div_Manufacture Information""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:41:34,2022-04-04 17:41:36,1.490s,PASSED
+"verifyElementClickable(findTestObject(""Staging Objects/Page_diagnostics/div_Manufacture Information""))",Chrome 99.0.4844.84,,,2022-04-04 17:41:36,2022-04-04 17:41:36,0.298s,PASSED
+"verifyElementText(findTestObject(""Staging Objects/Page_diagnostics/div_Manufacture Information""), ""Manufacture Information"")",Chrome 99.0.4844.84,,,2022-04-04 17:41:36,2022-04-04 17:41:37,0.589s,FAILED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_018,Chrome 99.0.4844.84,,,2022-04-04 17:41:37,2022-04-04 17:41:56,19.071s,FAILED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:41:37,2022-04-04 17:41:53,16.504s,PASSED
+"waitForElementVisible(findTestObject(""Staging Objects/Page_diagnostics/div_Regulatory Approval""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:41:53,2022-04-04 17:41:55,1.453s,PASSED
+"verifyElementClickable(findTestObject(""Staging Objects/Page_diagnostics/div_Regulatory Approval""))",Chrome 99.0.4844.84,,,2022-04-04 17:41:55,2022-04-04 17:41:55,0.319s,PASSED
+"verifyElementText(findTestObject(""Staging Objects/Page_diagnostics/div_Regulatory Approval""), ""Regulatory Approval"")",Chrome 99.0.4844.84,,,2022-04-04 17:41:55,2022-04-04 17:41:56,0.654s,FAILED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_019,Chrome 99.0.4844.84,,,2022-04-04 17:41:56,2022-04-04 17:42:16,20.247s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:41:56,2022-04-04 17:42:12,16.218s,PASSED
+"waitForElementVisible(findTestObject(""Staging Objects/Page_diagnostics/a_REQUEST FOR QUOTATION""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:42:12,2022-04-04 17:42:14,1.586s,PASSED
+"verifyElementClickable(findTestObject(""Staging Objects/Page_diagnostics/a_REQUEST FOR QUOTATION""))",Chrome 99.0.4844.84,,,2022-04-04 17:42:14,2022-04-04 17:42:14,0.301s,PASSED
+"click(findTestObject(""Staging Objects/Page_diagnostics/a_REQUEST FOR QUOTATION""))",Chrome 99.0.4844.84,,,2022-04-04 17:42:14,2022-04-04 17:42:15,0.734s,PASSED
+"verifyElementPresent(findTestObject(""Login Page/Page_diagnostics/div_Login_Page""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:42:15,2022-04-04 17:42:15,0.528s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:42:15,2022-04-04 17:42:16,0.716s,PASSED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_020,Chrome 99.0.4844.84,,,2022-04-04 17:42:16,2022-04-04 17:42:35,19.033s,FAILED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:42:16,2022-04-04 17:42:33,16.531s,PASSED
+"waitForElementVisible(findTestObject(""Item Details Objects/Page_diagnostics/a_Procure_Directly_From_Seller""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:42:33,2022-04-04 17:42:34,1.501s,PASSED
+"click(findTestObject(""Item Details Objects/Page_diagnostics/a_Procure_Directly_From_Seller""))",Chrome 99.0.4844.84,,,2022-04-04 17:42:34,2022-04-04 17:42:35,0.860s,FAILED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_021,Chrome 99.0.4844.84,,,2022-04-04 17:42:35,2022-04-04 17:43:54,1m - 18.797s,FAILED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:42:35,2022-04-04 17:42:51,15.894s,PASSED
+"waitForElementVisible(findTestObject(""Staging Objects/Page_diagnostics/span_Accessories included""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:42:51,2022-04-04 17:43:22,31.225s,PASSED
+"verifyElementPresent(findTestObject(""Staging Objects/Page_diagnostics/span_Accessories included""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:43:22,2022-04-04 17:43:54,31.545s,FAILED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_022,Chrome 99.0.4844.84,,,2022-04-04 17:43:54,2022-04-04 17:45:14,1m - 19.817s,FAILED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:43:54,2022-04-04 17:44:11,17.231s,PASSED
+"waitForElementVisible(findTestObject(""Staging Objects/Page_diagnostics/span_Alerts""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:44:11,2022-04-04 17:44:42,31.084s,PASSED
+"verifyElementPresent(findTestObject(""Staging Objects/Page_diagnostics/span_Alerts""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:44:42,2022-04-04 17:45:14,31.370s,FAILED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_023,Chrome 99.0.4844.84,,,2022-04-04 17:45:14,2022-04-04 17:46:33,1m - 19.571s,FAILED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:45:14,2022-04-04 17:45:31,16.863s,PASSED
+"waitForElementVisible(findTestObject(""Staging Objects/Page_diagnostics/span_Coding of the meter""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:45:31,2022-04-04 17:46:02,31.212s,PASSED
+"verifyElementPresent(findTestObject(""Staging Objects/Page_diagnostics/span_Coding of the meter""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:46:02,2022-04-04 17:46:33,31.357s,FAILED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_024,Chrome 99.0.4844.84,,,2022-04-04 17:46:33,2022-04-04 17:47:52,1m - 19.072s,FAILED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:46:33,2022-04-04 17:46:50,16.472s,PASSED
+"waitForElementVisible(findTestObject(""Staging Objects/Page_diagnostics/span_Cold chain requirements""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:46:50,2022-04-04 17:47:21,31.111s,PASSED
+"verifyElementPresent(findTestObject(""Staging Objects/Page_diagnostics/span_Cold chain requirements""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:47:21,2022-04-04 17:47:52,31.344s,FAILED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_025,Chrome 99.0.4844.84,,,2022-04-04 17:47:52,2022-04-04 17:49:12,1m - 19.322s,FAILED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:47:53,2022-04-04 17:48:09,16.704s,PASSED
+"waitForElementVisible(findTestObject(""Staging Objects/Page_diagnostics/span_Compatible test strips""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:48:09,2022-04-04 17:48:40,31.128s,PASSED
+"verifyElementPresent(findTestObject(""Staging Objects/Page_diagnostics/span_Compatible test strips""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:48:40,2022-04-04 17:49:12,31.341s,FAILED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_026,Chrome 99.0.4844.84,,,2022-04-04 17:49:12,2022-04-04 17:49:32,20.347s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:49:12,2022-04-04 17:49:30,17.703s,PASSED
+"waitForElementVisible(findTestObject(""Staging Objects/Page_diagnostics/span_Country of manufacture""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:49:30,2022-04-04 17:49:31,1.479s,PASSED
+"verifyElementPresent(findTestObject(""Staging Objects/Page_diagnostics/span_Country of manufacture""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:49:31,2022-04-04 17:49:31,0.308s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:49:31,2022-04-04 17:49:32,0.723s,PASSED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_027,Chrome 99.0.4844.84,,,2022-04-04 17:49:32,2022-04-04 17:49:51,18.551s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:49:32,2022-04-04 17:49:48,15.937s,PASSED
+"waitForElementVisible(findTestObject(""Staging Objects/Page_diagnostics/span_Description""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:49:48,2022-04-04 17:49:50,1.475s,PASSED
+"verifyElementPresent(findTestObject(""Staging Objects/Page_diagnostics/span_Description""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:49:50,2022-04-04 17:49:50,0.292s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:49:50,2022-04-04 17:49:51,0.713s,PASSED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_028,Chrome 99.0.4844.84,,,2022-04-04 17:49:51,2022-04-04 17:51:08,1m - 17.716s,FAILED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:49:51,2022-04-04 17:50:06,15.019s,PASSED
+"waitForElementVisible(findTestObject(""Staging Objects/Page_diagnostics/span_Diabetes Management Software""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:50:06,2022-04-04 17:50:37,31.168s,PASSED
+"verifyElementPresent(findTestObject(""Staging Objects/Page_diagnostics/span_Diabetes Management Software""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:50:37,2022-04-04 17:51:08,31.393s,FAILED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_029,Chrome 99.0.4844.84,,,2022-04-04 17:51:08,2022-04-04 17:51:28,19.862s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:51:08,2022-04-04 17:51:26,17.235s,PASSED
+"waitForElementVisible(findTestObject(""Staging Objects/Page_diagnostics/span_Enzyme""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:51:26,2022-04-04 17:51:27,1.471s,PASSED
+"verifyElementPresent(findTestObject(""Staging Objects/Page_diagnostics/span_Enzyme""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:51:27,2022-04-04 17:51:27,0.291s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:51:27,2022-04-04 17:51:28,0.720s,PASSED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_030,Chrome 99.0.4844.84,,,2022-04-04 17:51:28,2022-04-04 17:51:45,16.959s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:51:28,2022-04-04 17:51:43,14.315s,PASSED
+"waitForElementVisible(findTestObject(""Staging Objects/Page_diagnostics/span_Intended use""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:51:43,2022-04-04 17:51:44,1.467s,PASSED
+"verifyElementPresent(findTestObject(""Staging Objects/Page_diagnostics/span_Intended use""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:51:44,2022-04-04 17:51:44,0.321s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:51:44,2022-04-04 17:51:45,0.720s,PASSED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_031,Chrome 99.0.4844.84,,,2022-04-04 17:51:45,2022-04-04 17:53:04,1m - 19.179s,FAILED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:51:45,2022-04-04 17:52:02,16.514s,PASSED
+"waitForElementVisible(findTestObject(""Staging Objects/Page_diagnostics/span_Language options""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:52:02,2022-04-04 17:52:33,31.140s,PASSED
+"verifyElementPresent(findTestObject(""Staging Objects/Page_diagnostics/span_Language options""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:52:33,2022-04-04 17:53:04,31.378s,FAILED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_032,Chrome 99.0.4844.84,,,2022-04-04 17:53:04,2022-04-04 17:54:25,1m - 20.883s,FAILED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:53:04,2022-04-04 17:53:23,18.055s,PASSED
+"waitForElementVisible(findTestObject(""Staging Objects/Page_diagnostics/span_Memory capacity of the meter""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:53:23,2022-04-04 17:53:54,31.116s,PASSED
+"verifyElementPresent(findTestObject(""Staging Objects/Page_diagnostics/span_Memory capacity of the meter""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:53:54,2022-04-04 17:54:25,31.571s,FAILED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_033,Chrome 99.0.4844.84,,,2022-04-04 17:54:25,2022-04-04 17:55:45,1m - 20.107s,FAILED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:54:25,2022-04-04 17:54:43,17.239s,PASSED
+"waitForElementVisible(findTestObject(""Staging Objects/Page_diagnostics/span_Meter connection to computer""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:54:43,2022-04-04 17:55:14,31.202s,PASSED
+"verifyElementPresent(findTestObject(""Staging Objects/Page_diagnostics/span_Meter connection to computer""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:55:14,2022-04-04 17:55:45,31.528s,FAILED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_034,Chrome 99.0.4844.84,,,2022-04-04 17:55:45,2022-04-04 17:57:05,1m - 20.033s,FAILED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:55:45,2022-04-04 17:56:03,17.309s,PASSED
+"waitForElementVisible(findTestObject(""Staging Objects/Page_diagnostics/span_Meter connectivity""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:56:03,2022-04-04 17:56:34,31.046s,PASSED
+"verifyElementPresent(findTestObject(""Staging Objects/Page_diagnostics/span_Meter connectivity""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:56:34,2022-04-04 17:57:05,31.545s,FAILED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_035,Chrome 99.0.4844.84,,,2022-04-04 17:57:05,2022-04-04 17:57:25,19.575s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:57:06,2022-04-04 17:57:22,16.976s,PASSED
+"waitForElementVisible(findTestObject(""Staging Objects/Page_diagnostics/span_Name of manufacturer""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:57:22,2022-04-04 17:57:24,1.468s,PASSED
+"verifyElementPresent(findTestObject(""Staging Objects/Page_diagnostics/span_Name of manufacturer""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:57:24,2022-04-04 17:57:24,0.286s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:57:24,2022-04-04 17:57:25,0.700s,PASSED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_036,Chrome 99.0.4844.84,,,2022-04-04 17:57:25,2022-04-04 17:58:43,1m - 18.350s,FAILED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:57:25,2022-04-04 17:57:41,15.540s,PASSED
+"waitForElementVisible(findTestObject(""Staging Objects/Page_diagnostics/span_Operating conditions""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:57:41,2022-04-04 17:58:12,31.286s,PASSED
+"verifyElementPresent(findTestObject(""Staging Objects/Page_diagnostics/span_Operating conditions""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:58:12,2022-04-04 17:58:43,31.389s,FAILED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_037,Chrome 99.0.4844.84,,,2022-04-04 17:58:43,2022-04-04 18:00:03,1m - 19.724s,FAILED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 17:58:43,2022-04-04 17:59:00,17.005s,PASSED
+"waitForElementVisible(findTestObject(""Staging Objects/Page_diagnostics/span_Power""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:59:00,2022-04-04 17:59:32,31.067s,PASSED
+"verifyElementPresent(findTestObject(""Staging Objects/Page_diagnostics/span_Power""), 0)",Chrome 99.0.4844.84,,,2022-04-04 17:59:32,2022-04-04 18:00:03,31.520s,FAILED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_038,Chrome 99.0.4844.84,,,2022-04-04 18:00:03,2022-04-04 18:00:23,20.318s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 18:00:03,2022-04-04 18:00:21,17.690s,PASSED
+"waitForElementVisible(findTestObject(""Staging Objects/Page_diagnostics/span_Product reference""), 0)",Chrome 99.0.4844.84,,,2022-04-04 18:00:21,2022-04-04 18:00:22,1.464s,PASSED
+"verifyElementPresent(findTestObject(""Staging Objects/Page_diagnostics/span_Product reference""), 0)",Chrome 99.0.4844.84,,,2022-04-04 18:00:22,2022-04-04 18:00:23,0.291s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 18:00:23,2022-04-04 18:00:23,0.716s,PASSED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_039,Chrome 99.0.4844.84,,,2022-04-04 18:00:23,2022-04-04 18:00:42,18.668s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 18:00:23,2022-04-04 18:00:40,16.033s,PASSED
+"waitForElementVisible(findTestObject(""Staging Objects/Page_diagnostics/span_Regulatory approval""), 0)",Chrome 99.0.4844.84,,,2022-04-04 18:00:40,2022-04-04 18:00:41,1.496s,PASSED
+"verifyElementPresent(findTestObject(""Staging Objects/Page_diagnostics/span_Regulatory approval""), 0)",Chrome 99.0.4844.84,,,2022-04-04 18:00:41,2022-04-04 18:00:41,0.288s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 18:00:41,2022-04-04 18:00:42,0.716s,PASSED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_040,Chrome 99.0.4844.84,,,2022-04-04 18:00:42,2022-04-04 18:02:02,1m - 19.488s,FAILED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 18:00:42,2022-04-04 18:00:59,16.895s,PASSED
+"waitForElementVisible(findTestObject(""Staging Objects/Page_diagnostics/span_Sample type""), 0)",Chrome 99.0.4844.84,,,2022-04-04 18:00:59,2022-04-04 18:01:30,31.127s,PASSED
+"verifyElementPresent(findTestObject(""Staging Objects/Page_diagnostics/span_Sample type""), 0)",Chrome 99.0.4844.84,,,2022-04-04 18:01:30,2022-04-04 18:02:02,31.330s,FAILED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_041,Chrome 99.0.4844.84,,,2022-04-04 18:02:02,2022-04-04 18:02:23,21.691s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 18:02:02,2022-04-04 18:02:21,18.984s,PASSED
+"waitForElementVisible(findTestObject(""Staging Objects/Page_diagnostics/span_Storage conditions""), 0)",Chrome 99.0.4844.84,,,2022-04-04 18:02:21,2022-04-04 18:02:22,1.514s,PASSED
+"verifyElementPresent(findTestObject(""Staging Objects/Page_diagnostics/span_Storage conditions""), 0)",Chrome 99.0.4844.84,,,2022-04-04 18:02:22,2022-04-04 18:02:22,0.309s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 18:02:22,2022-04-04 18:02:23,0.718s,PASSED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_042,Chrome 99.0.4844.84,,,2022-04-04 18:02:23,2022-04-04 18:02:42,19.169s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 18:02:23,2022-04-04 18:02:40,16.424s,PASSED
+"waitForElementVisible(findTestObject(""Staging Objects/Page_diagnostics/span_Technology principle""), 0)",Chrome 99.0.4844.84,,,2022-04-04 18:02:40,2022-04-04 18:02:41,1.575s,PASSED
+"verifyElementPresent(findTestObject(""Staging Objects/Page_diagnostics/span_Technology principle""), 0)",Chrome 99.0.4844.84,,,2022-04-04 18:02:41,2022-04-04 18:02:42,0.307s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 18:02:42,2022-04-04 18:02:42,0.719s,PASSED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_043,Chrome 99.0.4844.84,,,2022-04-04 18:02:42,2022-04-04 18:04:02,1m - 19.228s,FAILED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 18:02:43,2022-04-04 18:02:59,16.645s,PASSED
+"waitForElementVisible(findTestObject(""Staging Objects/Page_diagnostics/span_Test strip ejector""), 0)",Chrome 99.0.4844.84,,,2022-04-04 18:02:59,2022-04-04 18:03:30,31.086s,PASSED
+"verifyElementPresent(findTestObject(""Staging Objects/Page_diagnostics/span_Test strip ejector""), 0)",Chrome 99.0.4844.84,,,2022-04-04 18:03:30,2022-04-04 18:04:02,31.357s,FAILED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_044,Chrome 99.0.4844.84,,,2022-04-04 18:04:02,2022-04-04 18:05:23,1m - 21.115s,FAILED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 18:04:02,2022-04-04 18:04:20,18.092s,PASSED
+"waitForElementVisible(findTestObject(""Staging Objects/Page_diagnostics/span_Transportation""), 0)",Chrome 99.0.4844.84,,,2022-04-04 18:04:20,2022-04-04 18:04:51,31.301s,PASSED
+"verifyElementPresent(findTestObject(""Staging Objects/Page_diagnostics/span_Transportation""), 0)",Chrome 99.0.4844.84,,,2022-04-04 18:04:51,2022-04-04 18:05:23,31.580s,FAILED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_045,Chrome 99.0.4844.84,,,2022-04-04 18:05:23,2022-04-04 18:06:43,1m - 20.108s,FAILED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 18:05:23,2022-04-04 18:05:40,17.398s,PASSED
+"waitForElementVisible(findTestObject(""Staging Objects/Page_diagnostics/span_Unit of measure""), 0)",Chrome 99.0.4844.84,,,2022-04-04 18:05:40,2022-04-04 18:06:11,31.047s,PASSED
+"verifyElementPresent(findTestObject(""Staging Objects/Page_diagnostics/span_Unit of measure""), 0)",Chrome 99.0.4844.84,,,2022-04-04 18:06:11,2022-04-04 18:06:43,31.528s,FAILED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_046,Chrome 99.0.4844.84,,,2022-04-04 18:06:43,2022-04-04 18:07:03,20.069s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 18:06:43,2022-04-04 18:07:00,17.377s,PASSED
+"waitForElementVisible(findTestObject(""Staging Objects/Page_diagnostics/span_Volume pricing""), 0)",Chrome 99.0.4844.84,,,2022-04-04 18:07:00,2022-04-04 18:07:02,1.531s,PASSED
+"verifyElementPresent(findTestObject(""Staging Objects/Page_diagnostics/span_Volume pricing""), 0)",Chrome 99.0.4844.84,,,2022-04-04 18:07:02,2022-04-04 18:07:02,0.306s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 18:07:02,2022-04-04 18:07:03,0.715s,PASSED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_047,Chrome 99.0.4844.84,,,2022-04-04 18:07:03,2022-04-04 18:08:22,1m - 19.406s,FAILED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 18:07:03,2022-04-04 18:07:20,16.622s,PASSED
+"waitForElementVisible(findTestObject(""Staging Objects/Page_diagnostics/span_User care""), 0)",Chrome 99.0.4844.84,,,2022-04-04 18:07:20,2022-04-04 18:07:51,31.069s,PASSED
+"verifyElementPresent(findTestObject(""Staging Objects/Page_diagnostics/span_User care""), 0)",Chrome 99.0.4844.84,,,2022-04-04 18:07:51,2022-04-04 18:08:22,31.586s,FAILED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_048,Chrome 99.0.4844.84,,,2022-04-04 18:08:22,2022-04-04 18:08:43,20.339s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 18:08:22,2022-04-04 18:08:40,17.695s,PASSED
+"verifyElementPresent(findTestObject(""Item Details Objects/Page_diagnostics/div_Price_Box""), 0)",Chrome 99.0.4844.84,,,2022-04-04 18:08:40,2022-04-04 18:08:42,1.448s,PASSED
+"verifyElementNotVisible(findTestObject(""Item Details Objects/Page_diagnostics/div_Price_Box""), STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 18:08:42,2022-04-04 18:08:42,0.328s,PASSED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/CLOSE_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 18:08:42,2022-04-04 18:08:43,0.731s,PASSED
+,,,,,,,
+Test Cases/Custom Item Details/TEST CASE/TC_DETAILS_UI_049,Chrome 99.0.4844.84,,,2022-04-04 18:08:43,2022-04-04 18:09:02,19.278s,FAILED
+"callTestCase(findTestCase(""Custom Item Details/UTILITIES/OPEN_BROWSER""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.84,,,2022-04-04 18:08:43,2022-04-04 18:08:59,16.662s,PASSED
+"waitForElementVisible(findTestObject(""Staging Objects/Page_diagnostics/a_REQUEST FOR QUOTATION""), 0)",Chrome 99.0.4844.84,,,2022-04-04 18:08:59,2022-04-04 18:09:01,1.567s,PASSED
+"click(findTestObject(""Staging Objects/Page_diagnostics/a_REQUEST FOR QUOTATION""))",Chrome 99.0.4844.84,,,2022-04-04 18:09:01,2022-04-04 18:09:02,0.905s,FAILED

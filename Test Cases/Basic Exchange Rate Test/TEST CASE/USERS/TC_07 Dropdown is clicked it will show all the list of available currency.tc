@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_07 Dropdown is clicked it will show all the list of available currency</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce3b6054-2fb5-45d3-a6fc-011e438d9578</testCaseGuid>
+</TestCaseEntity>

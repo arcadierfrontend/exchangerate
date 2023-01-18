@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_11 The original currency from review checkout page is displaying</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c8546f90-98da-4371-a48c-ee9e406fdc86</testCaseGuid>
+</TestCaseEntity>

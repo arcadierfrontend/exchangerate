@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Item Details Objects/Page_diagnostics/div.item-price-text",
+      "brokenLocator": "div.item-price-text",
+      "brokenLocatorMethod": "CSS",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027CONTACT SELLER\u0027])[2]/following::div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Item Details Objects/Page_diagnostics/div.item-price-text_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_diagnostics/FirstItem",
+      "brokenLocator": "//div[@id\u003d\u0027react_0HM74D82B92LF\u0027]/div/div/div[3]/div/div/a/div/div/div[2]/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//img[contains(@src,\u0027https://diagnostics.sandbox.arcadier.io/images/items/item-33461-637511343156449432-5eognf.jpg\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_diagnostics/FirstItem_img.png"
+    }
+  ]
+}

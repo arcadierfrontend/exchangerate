@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Exchange Rate icon is displayed</description>
+   <name>TC_06 API Key Field textfield is displayed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d243323a-5753-4133-aacd-7c68f82fb657</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_03 The default currency is displayed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ed3490a5-f463-4b6b-b26a-eeea2f7414f4</testCaseGuid>
+</TestCaseEntity>

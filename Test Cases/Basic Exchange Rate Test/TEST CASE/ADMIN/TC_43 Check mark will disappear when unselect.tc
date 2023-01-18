@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_43 Check mark will disappear when unselect</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d385d0de-a3c9-4f49-bb1f-c543a35d9889</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_36 Scroll bar can move or scroll up and down</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f5693c38-b3ee-4d50-9e64-84c50bf8ade8</testCaseGuid>
+</TestCaseEntity>

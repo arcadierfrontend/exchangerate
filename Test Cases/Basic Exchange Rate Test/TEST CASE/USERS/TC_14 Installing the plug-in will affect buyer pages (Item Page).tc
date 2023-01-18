@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_14 Installing the plug-in will affect buyer pages (Item Page)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d2b4dc94-73c1-4afb-8199-00642f86b17d</testCaseGuid>
+</TestCaseEntity>

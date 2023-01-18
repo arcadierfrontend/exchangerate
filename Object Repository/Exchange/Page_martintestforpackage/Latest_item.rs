@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Latest_item</name>
+   <tag></tag>
+   <elementGuidId>1134bcd1-1adb-4b0c-bb84-153dca6254c6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.section.section-shop</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='react_0HMNK71ASBFMG']/div/div/div[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>section section-shop</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Our latest itemsFind the best items to suit your needsSGD $4.00Instant CoffeeView All ItemsSGD $12.00Instant Hot ChocolateView All ItemsSGD $8.00CroissantsView All ItemsSGD $10.00Chamomile TeaView All ItemsSGD $8.00Oragnic Sourdough BreadView All ItemsSGD $15.00&quot;Tuna and salmon sashimi&quot;View All ItemsSGD $2.00Green TeaView All ItemsSGD $151.00&quot;Sample new Item 162580439851&quot;View All ItemsSGD $10.00Validation Testing 1View All ItemsSGD $1,000.00Cake  1View All Items</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react_0HMNK71ASBFMG&quot;)/div[1]/div[1]/div[@class=&quot;section section-shop&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='react_0HMNK71ASBFMG']/div/div/div[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sushi'])[2]/following::div[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='test'])[4]/following::div[7]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/div[3]</value>
+   </webElementXpaths>
+</WebElementEntity>
